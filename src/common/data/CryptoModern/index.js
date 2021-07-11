@@ -9,7 +9,7 @@ export const navbar = {
     {
       id: 1,
       label: 'Home',
-      path: '#home',
+      path: '/',
       offset: '84',
     },
     {

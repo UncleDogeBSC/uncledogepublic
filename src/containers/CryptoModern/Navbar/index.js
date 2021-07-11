@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 import Scrollspy from 'react-scrollspy';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Link from 'next/link'  
 import { Icon } from 'react-icons-kit';
 import { menu } from 'react-icons-kit/feather/menu';
 import { x } from 'react-icons-kit/feather/x';
@@ -123,9 +124,11 @@ const Navbar = () => {
           </Search>*/}
           {/* end of search */}
 
-          <AnchorLink href="#trail" offset={84}>
+          <Link href="/roadmap" offset={84}>
             <Button className="trail" title="Try for Free" />
-          </AnchorLink>
+
+
+          </Link>
 
           <Button
             className="menubar"
