@@ -24,9 +24,15 @@ const FeatureSection = ({
     <FeatureSectionWrapper id="key-features">
       <Container>
         <Box {...sectionHeader} className="sectionHeader">
-          <Text content="Why you choose TheCoin" {...sectionSubTitle} />
+          <Text content="Let Big Uncle Buy The Dips!" {...sectionSubTitle} />
           <Heading
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiu Lorem ipsum dolor Lorem ipsum dolor"
+            content="The Big Uncle Buyback system is unparalleled. It is by far the most sophisticated system in the meme coin space. 
+
+            In most situations, we let the community choose when Big Unlce will be used. In the event the price starts to retrace we will put a poll out for whether or not we should deploy the Buyback mechanism.
+            
+             
+            
+            [1] Dump Proof* – The Buyback system is designed to buy up the major dumps, therefore limiting the negative effects of whale activity"
             {...sectionTitle}
           />
         </Box>
@@ -34,7 +40,7 @@ const FeatureSection = ({
           {Features.map((feature, index) => (
             <Box className="col" {...col} key={index}>
               <FeatureBlock
-                icon={<img src={feature.icon} />}
+                icon={<img src={feature.icon} style={{width:"100px",height:"100px"}}/>}
                 wrapperStyle={blockWrapperStyle}
                 contentStyle={contentStyle}
                 title={<Heading content={feature.title} {...featureTitle} />}
@@ -67,11 +73,13 @@ FeatureSection.defaultProps = {
   // section header default style
   sectionHeader: {
     mb: ['40px', '40px', '40px', '80px'],
+    
     display: 'flex',
     width: '100%',
   },
   // sub section default style
   sectionSubTitle: {
+    
     as: 'span',
     display: 'block',
     textAlign: 'center',

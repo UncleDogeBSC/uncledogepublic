@@ -20,8 +20,8 @@ export const navbar = {
     },
     {
       id: 3,
-      label: 'Fund Raising',
-      path: '#fund',
+      label: 'RoadMap',
+      path: '/roadmap',
       offset: '81',
     },
     {
@@ -42,39 +42,38 @@ export const navbar = {
 /* ------------------------------------ */
 // Features data section
 /* ------------------------------------ */
-import featureIcon1 from 'common/assets/image/cryptoModern/feature-1.png';
-import featureIcon2 from 'common/assets/image/cryptoModern/feature-2.png';
-import featureIcon3 from 'common/assets/image/cryptoModern/feature-3.png';
-import featureIcon4 from 'common/assets/image/cryptoModern/feature-4.png';
+import featureIcon1 from 'common/assets/image/cryptoModern/choose(1).gif';
+import featureIcon2 from 'common/assets/image/cryptoModern/choose(2).gif';
+import featureIcon3 from 'common/assets/image/cryptoModern/choose(3).gif';
+import featureIcon4 from 'common/assets/image/cryptoModern/choose(4).gif';
 
 export const Features = [
   {
     id: 1,
-    icon: featureIcon1,
-    title: 'Great Market Value',
-    description:
-      'The leading digital currency by market capitalization, has grown in value by more than 10 times.',
+    icon: featureIcon1 ,
+    
+    title: 'Stability',
+    
   },
   {
     id: 2,
     icon: featureIcon2,
-    title: 'Verified Mining',
-    description:
-      'Your mining rigs are already set up and running. As soon as you set up your account.',
+    title: 'Peace of Mind',
+    
   },
   {
     id: 3,
     icon: featureIcon3,
-    title: 'Fastest Miner',
-    description:
-      'Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining.',
+    title: 'Dump Proof*',
+    //description:
+     // 'Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining.',
   },
   {
     id: 4,
     icon: featureIcon4,
-    title: 'Secure Transactions',
-    description:
-      'You can mine any cryptocurrency available in our catalogue! Switch your mining power.',
+    title: 'Chosen By You',
+  //  description:
+    //  'You can mine any cryptocurrency available in our catalogue! Switch your mining power.',
   },
 ];
 
@@ -84,6 +83,7 @@ export const Features = [
 import walletIcon1 from 'common/assets/image/cryptoModern/wallet1.png';
 import walletIcon2 from 'common/assets/image/cryptoModern/wallet2.png';
 import walletIcon3 from 'common/assets/image/cryptoModern/wallet3.png';
+import { style } from 'styled-system';
 
 export const WalletFeatures = [
   {

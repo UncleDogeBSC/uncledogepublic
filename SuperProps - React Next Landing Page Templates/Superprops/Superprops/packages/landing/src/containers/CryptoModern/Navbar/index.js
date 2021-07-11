@@ -15,6 +15,7 @@ import NavbarWrapper, { MenuArea, MobileMenu, Search } from './navbar.style';
 import LogoImage from 'common/assets/image/cryptoModern/logo-white.png';
 import LogoImageAlt from 'common/assets/image/cryptoModern/logo.png';
 
+
 import { navbar } from 'common/data/CryptoModern';
 
 const Navbar = () => {
@@ -104,7 +105,7 @@ const Navbar = () => {
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
           {/* end of main menu */}
 
-          <Search className="search" ref={searchRef}>
+       {/*   <Search className="search" ref={searchRef}>
             <form onSubmit={handleSearchForm}>
               <input
                 type="text"
@@ -119,7 +120,7 @@ const Navbar = () => {
               icon={<Icon icon={state.searchToggle ? x : search} />}
               onClick={() => toggleHandler('search')}
             />
-          </Search>
+          </Search>*/}
           {/* end of search */}
 
           <AnchorLink href="#trail" offset={84}>

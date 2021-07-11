@@ -4,7 +4,11 @@ import { themeGet } from '@styled-system/theme-get';
 const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Roboto', sans-serif;
-    background:#03103b;
+    background-image: linear-gradient(
+      135deg,
+      rgba(0,0,0) 12%,
+      rgba(201, 147, 0) 30%
+    );
   }
   .reuseModalParentWrapper,
   .reuseModalOverlay {
