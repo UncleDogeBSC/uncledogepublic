@@ -29,11 +29,13 @@ const Banner = () => {
             <Heading
               as="h1"
               content="Uncle Doge wants you in his army."
+              style={{color:"#e5a90d"}}
             />
           </Fade>
           <Fade up delay={200}>
             <Text
               content="Uncle Doge is the best variant of Doge-Themed coins yet! It is designed to incentivize long term holders."
+              style={{color:"white"}}
             />
           </Fade>
           <Fade up delay={300}>
@@ -47,7 +49,7 @@ const Banner = () => {
             </ButtonGroup>
           </Fade>
         </BannerContent>
-        <BannerImage>
+        <BannerImage style={{width:"500px"}}>
           <Fade in delay={100}>
             <Image src={sticker1} alt="Banner" />
           </Fade>
