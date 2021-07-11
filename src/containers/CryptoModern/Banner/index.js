@@ -14,7 +14,7 @@ import BannerWrapper, {
   BannerImage,
   ButtonGroup,
 } from './banner.style';
-
+import sticker1 from 'common/assets/image/agency/sticker1.png';
 import bannerImg from 'common/assets/image/cryptoModern/banner-bg.png';
 
 const Banner = () => {
@@ -23,24 +23,17 @@ const Banner = () => {
       <Container>
         <BannerContent>
           <Fade up>
-            <DiscountLabel>
-              <Text className="discountAmount" content="25% Discount" />
-              <Text
-                className="discountText"
-                content="on every first project "
-              />
-            </DiscountLabel>
+            
           </Fade>
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="Welcome next level  cryptocurrency token with faster transfer"
+              content="Uncle Doge wants you in his army."
             />
           </Fade>
           <Fade up delay={200}>
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna
-          ipsum dolor sit amet consectetur."
+              content="Uncle Doge is the best variant of Doge-Themed coins yet! It is designed to incentivize long term holders."
             />
           </Fade>
           <Fade up delay={300}>
@@ -56,7 +49,7 @@ const Banner = () => {
         </BannerContent>
         <BannerImage>
           <Fade in delay={100}>
-            <Image src={bannerImg} alt="Banner" />
+            <Image src={sticker1} alt="Banner" />
           </Fade>
         </BannerImage>
       </Container>
