@@ -8,7 +8,7 @@ const NavbarWrapper = styled.nav`
   background-color: transparent;
   position: fixed;
   z-index: 9999;
-  transition: all 0.3s ease;
+  transition: all 0.3s  ease;
   @media only screen and (max-width: 1366px) {
     padding: 20px 0 21px;
   }
@@ -46,6 +46,11 @@ const NavbarWrapper = styled.nav`
         }
       }
     }
+  }
+  p{
+
+    font-size: 30px;
+        font-weight: 400;
   }
 `;
 
@@ -130,7 +135,7 @@ export const MenuArea = styled.div`
     }
     &.trail {
       border-radius: 4px;
-      background-image: linear-gradient(to right, #ff8ab6, #e33074 95%);
+      background-image: linear-gradient(to right, #d1d1d1, #3a3740 95%);
       &:hover {
         box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;
       }
