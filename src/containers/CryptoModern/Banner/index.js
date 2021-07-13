@@ -29,7 +29,7 @@ const Banner = () => {
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="Uncle Doge wants you in his army."
+              content="Uncle Doge wants you to join his army."
               style={{color:"#e5a90d"}}
             />
           </Fade>
