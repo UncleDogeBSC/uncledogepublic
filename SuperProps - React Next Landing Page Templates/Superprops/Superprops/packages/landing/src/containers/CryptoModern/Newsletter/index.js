@@ -6,7 +6,7 @@ import Heading from 'common/components/Heading';
 import Button from 'common/components/Button';
 import Input from 'common/components/Input';
 import Container from 'common/components/UI/Container';
-
+import CopyrightSection2 from '../CopyrightsSection2';
 import NewsletterWrapper, { ContactFormWrapper } from './newsletter.style';
 import Particles from '../../Agency/Particle';
 const Newsletter = ({
@@ -30,10 +30,13 @@ const Newsletter = ({
               Become A Uncle Doge Holder"
               {...description}
             />
+           <CopyrightSection2/>
           </Box>
-          
+         
         </NewsletterWrapper>
+ 
       </Container>
+      
     </Box>
   );
 };

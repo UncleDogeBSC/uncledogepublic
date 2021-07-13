@@ -4,6 +4,7 @@ import { themeGet } from '@styled-system/theme-get';
 const BannerWrapper = styled.div`
   padding-top: 100px;
   min-height: 802px;
+  position: relative;
   overflow: hidden;
   background-image: transparent;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
@@ -31,6 +32,22 @@ const BannerWrapper = styled.div`
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
       min-height: 100%;
+    }
+  }
+  .particle {
+    position: absolute;
+    z-index:-10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    overflow: hidden;
+    @media (max-width: 990px) {
+      display: none;
+    }
+    @media only screen and (max-width: 480px) {
+      width: 100%;
     }
   }
 `;
