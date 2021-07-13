@@ -23,8 +23,8 @@ const FeatureSection = ({
   return (
     <FeatureSectionWrapper id="key-features">
       <Container>
-        <Box {...sectionHeader} className="sectionHeader">
-          <Text content="Let Big Uncle Buy The Dips!" {...sectionSubTitle} />
+        <Box {...sectionHeader} className="sectionHeader" >
+          <Text content="Let Big Uncle Buy The Dips!"  {...sectionSubTitle} />
           <Heading
             content="The Big Uncle Buyback system is unparalleled. It is by far the most sophisticated system in the meme coin space. 
 
@@ -58,7 +58,7 @@ FeatureSection.defaultProps = {
   // section header default style
   sectionHeader: {
     mb: ['40px', '40px', '40px', '80px'],
-    
+    color:'#000000',
     display: 'flex',
     width: '100%',
   },
@@ -71,7 +71,7 @@ FeatureSection.defaultProps = {
     fontSize: ['30px', '40px'],
     fontWeight: '300',
     letterSpacing: '-0.025em',
-    color: '#fff',
+    color:'#000000',
     mb: '15px',
   },
   // section title default style
@@ -79,7 +79,7 @@ FeatureSection.defaultProps = {
     textAlign: 'center',
     fontSize: ['14px', '16px'],
     fontWeight: '400',
-    color: '#496b96',
+    color:'#000000',
     mb: '0',
     maxWidth: '420px',
     lineHeight: '1.5',
@@ -106,7 +106,7 @@ FeatureSection.defaultProps = {
   featureTitle: {
     fontSize: ['18px', '20px'],
     fontWeight: '400',
-    color: '#fff',
+    color: '#000',
     lineHeight: '1.5',
     mb: ['10px', '10px', '10px', '15px'],
     letterSpacing: '-0.025em',
@@ -116,7 +116,7 @@ FeatureSection.defaultProps = {
   featureDescription: {
     fontSize: '15px',
     lineHeight: '1.6',
-    color: 'rgba(142, 199, 255, 0.502)',
+    color: 'rgba(0, 0, 0, 0.502)',
   },
 };
 

@@ -1,13 +1,8 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-import Particle1 from 'common/assets/image/agency/particles/particle-1.png';
-import Particle2 from 'common/assets/image/agency/particles/particle-2.png';
-import Particle3 from 'common/assets/image/agency/particles/particle-3.png';
-import Particle4 from 'common/assets/image/agency/particles/particle-4.png';
-import Particle5 from 'common/assets/image/agency/particles/particle-5.png';
-import Particle6 from 'common/assets/image/agency/particles/particle-2.png';
-import Particle7 from 'common/assets/image/agency/particles/particle-4.png';
+import Smoke10 from 'common/assets/image/agency//Smoke10.png';
+
 import { divModeExecute } from 'tsparticles/Utils';
 
 const ParticlesComponent = () => {
@@ -29,20 +24,55 @@ const ParticlesComponent = () => {
                 value: "#ff0000",
                 animation: {
                   enable: true,
-                  speed: 20,
+                  speed: 2,
                   sync: true
                 }
               },
               shape: {
-                type: "image",
-                options: {
-                  image: {
-                    src:
-                      "https://www.blog.jonnycornwell.com/wp-content/uploads/2012/07/Smoke10.png",
-                    width: 256,
-                    height: 256
-                  }
-                }
+                type: ['images'],
+                images: [
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                  {
+                    src: `${Smoke10}`,
+                    width: 80,
+                    height: 80,
+                  },
+                 
+                ],
               },
               opacity: {
                 value: 1,
@@ -55,11 +85,11 @@ const ParticlesComponent = () => {
                 }
               },
               size: {
-                value: 64,
-                random: { enable: true, minimumValue: 32 },
+                value: 104,
+                random: { enable: false, minimumValue: 32 },
                 animation: {
                   enable: false,
-                  speed: 20,
+                  speed: 5,
                   minimumValue: 0.1,
                   sync: false
                 }
@@ -73,7 +103,7 @@ const ParticlesComponent = () => {
               },
               life: {
                 duration: {
-                  value: 20
+                  value: 100
                 },
                 count: 1
               },
@@ -81,9 +111,10 @@ const ParticlesComponent = () => {
                 enable: true,
                 gravity: {
                   enable: true,
-                  acceleration: -0.5
+                  bounce: false,
+                  acceleration: 0
                 },
-                speed: 0.1,
+                speed: 4,
                 direction: "top",
                 random: false,
                 straight: false,
@@ -92,7 +123,7 @@ const ParticlesComponent = () => {
                   bottom: "none"
                 },
                 attract: {
-                  enable: true,
+                  enable: false,
                   distance: 300,
                   rotate: {
                     x: 60,
@@ -104,17 +135,17 @@ const ParticlesComponent = () => {
             interactivity: {
               detectsOn: "canvas",
               events: {
-                resize: true
+                resize: false
               }
             },
             detectRetina: true,
             background: {
-              color: "#000000"
+              color: "transparent"
             },
             emitters: {
               direction: "top",
               rate: {
-                quantity: 50,
+                quantity: 3,
                 delay: 0.05
               },
               size: {
