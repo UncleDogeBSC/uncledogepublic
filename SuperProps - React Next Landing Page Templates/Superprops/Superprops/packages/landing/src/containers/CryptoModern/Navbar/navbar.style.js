@@ -8,7 +8,8 @@ const NavbarWrapper = styled.nav`
   background-color: transparent;
   position: fixed;
   z-index: 9999;
-  transition: all 0.3s  ease;
+  transition:  1s  ease;
+  
   @media only screen and (max-width: 1366px) {
     padding: 20px 0 21px;
   }
@@ -57,6 +58,7 @@ const NavbarWrapper = styled.nav`
 export const MenuArea = styled.div`
   display: flex;
   align-items: center;
+  
   .menu {
     display: flex;
     align-items: center;
@@ -212,7 +214,7 @@ export const MobileMenu = styled.div`
       rgba(201, 147, 0) 30%
     );
     transition: all 0.3s ease;
-    color: ${themeGet('colors.secondary', '#000')};
+    color: ${themeGet('colors.secondary', '#fff')};
     &.active {
       opacity: 1;
       visibility: visible;

@@ -26,8 +26,7 @@ const Banner = () => {
   return (
     
     <BannerWrapper id="home">
-      <ParticlesBanner
-        />
+      <ParticlesBanner/>
       
       <Container>
       

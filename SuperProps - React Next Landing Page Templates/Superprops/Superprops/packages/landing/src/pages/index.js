@@ -57,12 +57,13 @@ const Main = () => {
             <Banner />
             
             
-            <Features />
+           
             <ParallaxProvider>
               <FundRaising />
               <FundRaising2/>
               <FundRaising3/>
             </ParallaxProvider>
+            <Features />
             <WorkHistory />
             
           {/*  <Investment />
