@@ -15,9 +15,7 @@ const FeatureSectionWrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:rgba(0,0,0,0.2);
-    border: solid 19px rgba(0,0,0,0.1);
-    border-radius:50px;
+    
     
   }
   .feature__block {
