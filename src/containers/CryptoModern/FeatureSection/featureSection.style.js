@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const FeatureSectionWrapper = styled.section`
-  padding: 80px 0 180px 0;
-  background:rgba(0,0,0,0.9);
+  padding: 80px 0 20px 0;
+  background:rgba(0,0,0,0.5);
   @media (max-width: 990px) {
     padding: 60px 0 60px 0;
   }
@@ -19,14 +19,17 @@ const FeatureSectionWrapper = styled.section`
     position: relative;
     height: 100%;
     display: flex;
-    background:transparent;
+    background:rgba(0,0,0,0.5)
+   
+    ;
+    
     justify-content: center;
     align-items: center;
     flex-direction: column;
     transition: all 0.3s ease;
     padding: 0 20px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0px;
     
     @media (max-width: 500px) {
       padding: 15px 0;

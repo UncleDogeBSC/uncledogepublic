@@ -14,8 +14,8 @@ export const navbar = {
     },
     {
       id: 2,
-      label: 'Key Features',
-      path: '#key-features',
+      label: 'Techrate Audit',
+      path: 'https://github.com/TechRate/Smart-Contract-Audits/blob/main/Uncle%20Doge.pdf',
       offset: '81',
     },
     {
@@ -26,14 +26,14 @@ export const navbar = {
     },
     {
       id: 4,
-      label: 'Locations',
-      path: '#map',
+      label: 'Chart',
+      path: 'https://poocoin.app/tokens/0xd2618bc9c9cdc40ff19e200a7d14a09799c0a152',
       offset: '81',
     },
     {
       id: 5,
-      label: 'FAQ',
-      path: '#faqSection',
+      label: 'Bsc Scan',
+      path: 'https://bscscan.com/token/0xd2618bc9c9cdc40ff19e200a7d14a09799c0a152',
       offset: '81',
     },
   ],

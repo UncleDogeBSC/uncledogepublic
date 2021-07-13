@@ -36,22 +36,7 @@ const FeatureSection = ({
             {...sectionTitle}
           />
         </Box>
-        <Box className="row" {...row}>
-          {Features.map((feature, index) => (
-            <Box className="col" {...col} key={index}>
-              <FeatureBlock
-                icon={<img src={feature.icon} style={{width:"100px",height:"100px"}}/>}
-                wrapperStyle={blockWrapperStyle}
-                contentStyle={contentStyle}
-                title={<Heading content={feature.title} {...featureTitle} />}
-                description={
-                  <Text content={feature.description} {...featureDescription} />
-                }
-                className="cryptoFeature"
-              />
-            </Box>
-          ))}
-        </Box>
+        
       </Container>
     </FeatureSectionWrapper>
   );

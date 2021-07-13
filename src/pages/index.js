@@ -10,6 +10,8 @@ import Features from 'containers/CryptoModern/FeatureSection';
 import WorkHistory from 'containers/CryptoModern/WorkHistory';
 import Investment from 'containers/CryptoModern/Investment';
 import FundRaising from 'containers/CryptoModern/FundRaising';
+import FundRaising2 from 'containers/CryptoModern/FundRaising2';
+import FundRaising3 from 'containers/CryptoModern/FundRaising3';
 import Privacypolicy from 'containers/CryptoModern/Privacy';
 import WalletSection from 'containers/CryptoModern/WalletSection';
 import MapSection from 'containers/CryptoModern/MapSection';
@@ -26,7 +28,7 @@ const Main = () => {
     
       <>
         <Head>
-          <title>Crypto Modern | A next js landing page</title>
+          <title>Uncle Doge | Landing page</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#2563FF" />
           <meta
@@ -51,17 +53,24 @@ const Main = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            <CountDown />
+            <Newsletter />
+            
             <Features />
-            <WorkHistory />
-            <Investment />
+            
             <FundRaising />
-            <Privacypolicy />
+            <FundRaising2/>
+            <FundRaising3/>
+            <WorkHistory />
+            
+          {/*  <Investment />
+            <FundRaising />
+           <Privacypolicy />
             <WalletSection />
             <MapSection />
-            <FaqSection />
-            <Newsletter />
+            <FaqSection />*/}
+            
           </ContentWrapper>
+          <CountDown />
           <Footer />
         </CryptoWrapper>
         {/* end of app classic landing */}

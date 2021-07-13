@@ -14,6 +14,7 @@ import shape1 from 'common/assets/image/cryptoModern/Shape-1.png';
 import shape2 from 'common/assets/image/cryptoModern/Shape-2.png';
 import shape3 from 'common/assets/image/cryptoModern/Shape-3.png';
 import shape4 from 'common/assets/image/cryptoModern/Shape-4.png';
+import Newsletter2 from 'containers/CryptoModern/Newsletter2';
 
 const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
   return (
@@ -23,53 +24,47 @@ const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
           <Box className="col" {...col}>
             <CounterUpArea>
               <Card className="card" {...cardStyle}>
-                <Image src={shape1} alt="Shape 1" />
+               
                 <h3>
                   <CountUp start={0} end={75000} />+
                 </h3>
-                <Text content="Awards" />
+                <Text content="MarketCap" />
               </Card>
               <Card className="card" {...cardStyle}>
-                <Image src={shape2} alt="Shape 2" />
+                
                 <h3>
                   <CountUp start={0} end={80} duration={5} />
                 </h3>
-                <Text content="Million Customers" />
+                <Text content="Price" />
               </Card>
               <Card className="card" {...cardStyle}>
-                <Image src={shape3} alt="Shape 3" />
+               
                 <h3>
                   <CountUp start={0} end={9350} duration={5} />+
                 </h3>
-                <Text content="Community" />
+                <Text content="Holders" />
               </Card>
               <Card className="card" {...cardStyle}>
-                <Image src={shape4} alt="Shape 4" />
+             
                 <h3>
                   <CountUp start={0} end={30000} duration={5} />+
                 </h3>
-                <Text content="Transactions" />
+                <Text content="Telegram Members" />
               </Card>
             </CounterUpArea>
           </Box>
           <Box className="col" {...col}>
             <FeatureBlock
-              title={<Heading content="Our Largest Achievements " />}
+              title={<Heading content="Join The Army Now " />}
               description={
-                <Text content="We have worked with some leading agencies around the globe and their appreciation is our main strength. In the modern cryptocurrency era, customer satisfaction is our main criteria. " />
+                <Text content="Join the army and enjoy the benefits from our thoroughly tested and proven tokenomics system. It is designed to provide a healthy chart and reward loyal holders long term. " />
               }
-              button={
-                <Button
-                  title="See our stories"
-                  variant="textButton"
-                  icon={<i className="flaticon-next" />}
-                  {...btnStyle}
-                />
-              }
+             
             />
           </Box>
         </Box>
       </Container>
+      <Newsletter2 />
     </WorkHistoryWrapper>
   );
 };

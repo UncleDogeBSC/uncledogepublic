@@ -13,10 +13,11 @@ import Button from 'common/components/Button';
 import Container from 'common/components/UI/Container';
 import useOnClickOutside from 'common/hooks/useOnClickOutside';
 import NavbarWrapper, { MenuArea, MobileMenu, Search } from './navbar.style';
-import LogoImage from 'common/assets/image/cryptoModern/logo-white.png';
-import LogoImageAlt from 'common/assets/image/cryptoModern/logo.png';
+import LogoImage from 'common/assets/image/cryptoModern/Uncle-Doge-logo.png';
+import LogoImageAlt from 'common/assets/image/cryptoModern/Uncle-Doge-logo.png';
+import Drawer from 'common/components/Drawer';
 
-
+import CopyrightSection from '../CopyrightsSection';
 import { navbar } from 'common/data/CryptoModern';
 
 const Navbar = () => {
@@ -90,6 +91,7 @@ const Navbar = () => {
       <Container>
         <Logo
           href="/cryptoModern"
+          
           logoSrc={LogoImage}
           title="Crypto Modern"
           className="main-logo"
@@ -124,8 +126,8 @@ const Navbar = () => {
           </Search>*/}
           {/* end of search */}
 
-          <Link href="/roadmap" offset={84}>
-            <Button className="trail" title="Try for Free" />
+          <Link href="https://swap.uncle-doge.com/#/swap" offset={84}>
+            <Button className="trail" title="Buy Token" />
 
 
           </Link>
@@ -159,18 +161,24 @@ const Navbar = () => {
           >
             {navMenu.map((menu, index) => (
               <li key={`menu_key${index}`}>
-                <AnchorLink
+                <Link
                   href={menu.path}
                   offset={menu.offset}
                   onClick={handleRemoveMenu}
                 >
                   {menu.label}
-                </AnchorLink>
+                </Link>
               </li>
             ))}
           </Scrollspy>
-          <Button title="Try for Free" />
+          <CopyrightSection />
+          <Link href="https://swap.uncle-doge.com/#/swap" offset={84}>
+            <Button className="trail" title="Buy Token" />
+
+
+          </Link>
         </Container>
+        
       </MobileMenu>
       {/* end of mobile menu */}
     </NavbarWrapper>

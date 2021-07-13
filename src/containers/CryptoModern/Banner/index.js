@@ -14,6 +14,7 @@ import BannerWrapper, {
   BannerImage,
   ButtonGroup,
 } from './banner.style';
+import Link from 'next/link'  
 import sticker1 from 'common/assets/image/agency/sticker1.png';
 import bannerImg from 'common/assets/image/cryptoModern/banner-bg.png';
 
@@ -40,12 +41,16 @@ const Banner = () => {
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-              <Button className="primary" title="GET TOKEN" />
-              <Button
-                className="text"
-                variant="textButton"
-                title="WHITE PAPER"
-              />
+              <Link href="https://swap.uncle-doge.com/#/swap" offset={84}>
+                <Button className="primary" title="Uncle Swap" />
+              </Link>
+              <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xd2618bc9c9cdc40ff19e200a7d14a09799c0a152" offset={84}>
+                <Button
+                  className="text"
+                  variant="textButton"
+                  title="PancakeSwap"
+                />
+              </Link>
             </ButtonGroup>
           </Fade>
         </BannerContent>

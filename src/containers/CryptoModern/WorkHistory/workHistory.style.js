@@ -4,6 +4,7 @@ import { themeGet } from '@styled-system/theme-get';
 const WorkHistoryWrapper = styled.section`
   padding: 70px 0 80px;
   overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
   @media (max-width: 990px) {
     padding: 50px 0 60px 0;
   }
@@ -64,7 +65,7 @@ const WorkHistoryWrapper = styled.section`
 const CounterUpArea = styled.div`
   display: flex;
   flex-wrap: wrap;
-
+  margin-top:40px;
   @media only screen and (max-width: 1200px) {
     padding-left: 0;
   }
@@ -77,6 +78,7 @@ const CounterUpArea = styled.div`
     margin-top: 50px;
     margin-bottom: 30px;
   }
+  
   .card {
     width: calc(50% - 25px);
     margin-left: 25px;
@@ -86,7 +88,7 @@ const CounterUpArea = styled.div`
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
-    background-color: #152149;
+    background-color:rgba(0,0,0,0.8);
     cursor: pointer;
     @media (max-width: 767px) {
       width: calc(50% - 13px);
@@ -96,8 +98,8 @@ const CounterUpArea = styled.div`
     }
 
     &:hover {
-      background-image: linear-gradient(to right, #1d7ccb 30%, #1951b8 100%);
-      box-shadow: 0px 16px 57px 0px rgba(22, 53, 76, 0.7);
+      
+      box-shadow: 0px 16px 57px 0px rgba(255, 255, 255, 0.7);
     }
 
     h3 {
