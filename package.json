@@ -18,6 +18,8 @@
     "@reach/accordion": "^0.11.2",
     "@redq/reuse-modal": "^1.1.9",
     "@styled-system/theme-get": "^5.1.2",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
     "firebase-admin": "^9.4.1",
     "firebase-functions": "^3.11.0",
     "next": "^10.0.1",

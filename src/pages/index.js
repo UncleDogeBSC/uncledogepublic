@@ -7,6 +7,7 @@ import Navbar from 'containers/CryptoModern/Navbar';
 import Banner from 'containers/CryptoModern/Banner';
 import CountDown from 'containers/CryptoModern/CountDown';
 import Features from 'containers/CryptoModern/FeatureSection';
+import RoadMap from 'containers/CryptoModern/RoadMap';
 import WorkHistory from 'containers/CryptoModern/WorkHistory';
 import Investment from 'containers/CryptoModern/Investment';
 import FundRaising from 'containers/CryptoModern/FundRaising';
@@ -56,7 +57,7 @@ const Main = () => {
             <Newsletter />
             
             <Features />
-            
+            <RoadMap />
             <FundRaising />
             <FundRaising2/>
             <FundRaising3/>
