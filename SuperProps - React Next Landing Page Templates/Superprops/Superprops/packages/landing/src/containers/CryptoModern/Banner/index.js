@@ -17,12 +17,28 @@ import BannerWrapper, {
 import Link from 'next/link'  
 import uncleBoss from 'common/assets/image/agency/uncleBoss.png';
 import bannerImg from 'common/assets/image/cryptoModern/banner-bg.png';
+import Tilt from 'react-parallax-tilt';
+import Particles from '../../Agency/Particle';
+import ParticlesBanner from '../../Agency/ParticleBanner';
+
 
 const Banner = () => {
   return (
     <BannerWrapper id="home">
+      <ParticlesBanner
+        style={{
+          position: "absolute",
+          zIndex: -100,
+          top: 0,
+          left: 0,
+          bottom: 0,
+          display: block
+        }} />
+      
       <Container>
+      
         <BannerContent>
+        
           <Fade up>
             
           </Fade>
@@ -54,11 +70,13 @@ const Banner = () => {
             </ButtonGroup>
           </Fade>
         </BannerContent>
-        <BannerImage style={{width:"700px"}}>
-          <Fade in delay={100}>
-            <Image src={uncleBoss} alt="Banner" />
-          </Fade>
-        </BannerImage>
+        <Tilt >
+          <BannerImage style={{width:"700px"}}>
+            <Fade in delay={100}>
+              <Image src={uncleBoss} alt="Banner" />
+            </Fade>
+          </BannerImage>
+        </Tilt>
       </Container>
     </BannerWrapper>
   );

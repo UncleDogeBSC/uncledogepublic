@@ -9,6 +9,8 @@ import Container from 'common/components/UI/Container';
 
 import NewsletterWrapper, { ContactFormWrapper } from './newsletter.style';
 import Particles from '../../Agency/Particle';
+
+
 const Newsletter = ({
   sectionWrapper,
   textArea,
