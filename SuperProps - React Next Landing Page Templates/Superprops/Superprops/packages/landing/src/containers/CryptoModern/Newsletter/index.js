@@ -35,6 +35,7 @@ const Newsletter = ({
           </Box>
           
         </NewsletterWrapper>
+        <CopyrightSection />
       </Container>
     </Box>
   );
