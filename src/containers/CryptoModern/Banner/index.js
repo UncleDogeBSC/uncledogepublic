@@ -31,8 +31,7 @@ const Banner = () => {
           zIndex: -100,
           top: 0,
           left: 0,
-          bottom: 0,
-          display: block
+          bottom: 0
         }} />
       
       <Container>
