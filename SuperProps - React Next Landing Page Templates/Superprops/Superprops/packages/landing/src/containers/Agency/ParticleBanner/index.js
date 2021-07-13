@@ -83,7 +83,7 @@ const ParticlesComponent = () => {
                   enable: true,
                   acceleration: -0.5
                 },
-                speed: 0.1,
+                speed: 0.00000001,
                 direction: "top",
                 random: false,
                 straight: false,
