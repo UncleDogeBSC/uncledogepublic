@@ -95,6 +95,7 @@ export const DiscountLabel = styled.div`
 export const BannerImage = styled.div`
   flex-shrink: 0;
   width: calc(100% - 425px);
+ 
   img {
     margin-left: 80px;
     @media only screen and (max-width: 1600px) {
@@ -111,15 +112,22 @@ export const ButtonGroup = styled.div`
 
   .reusecore__button {
     text-transform: inherit;
-    border-radius: 5px;
+    border-radius: 0px;
     padding-left: 16px;
     padding-right: 16px;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
+    border-radius:5px;
+    background-image: linear-gradient(to right, #d1d1d1, #946862 95%);
+    &:hover {
+      box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;
+    }
 
     &.primary {
-      background-image: linear-gradient(to right, #4ba1d8, #4464bd 95%);
+      border-radius:5px;
+      background-image: linear-gradient(to right, #d1d1d1, #3a3740 95%);
+     
       &:hover {
         box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;
       }
@@ -128,7 +136,7 @@ export const ButtonGroup = styled.div`
     &.text {
       margin-left: 15px;
       color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.302);
+      border: 0px solid rgba(255, 255, 255, 0.302);
     }
   }
 `;

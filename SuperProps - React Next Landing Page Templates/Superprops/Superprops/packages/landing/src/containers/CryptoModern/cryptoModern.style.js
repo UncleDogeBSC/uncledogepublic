@@ -6,8 +6,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(
       135deg,
-      rgba(0,0,0) 12%,
-      rgba(201, 147, 0) 30%
+      rgba(0,0,0) 15%,
+     
+      rgba( 224, 174, 38) 60%,
+      rgba(201, 147, 0) 80%
     );
   }
   .reuseModalParentWrapper,

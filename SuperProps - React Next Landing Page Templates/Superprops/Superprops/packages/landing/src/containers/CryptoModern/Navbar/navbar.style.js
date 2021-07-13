@@ -19,12 +19,12 @@ const NavbarWrapper = styled.nav`
     justify-content: space-between;
     .main-logo {
       img {
-        width: 128px;
+        width: 75px;
         height: auto;
       }
     }
     .logo-alt {
-      width: 128px;
+      width: 75px;
       height: auto;
       display: none;
     }
@@ -130,7 +130,7 @@ export const MenuArea = styled.div`
     }
     &.trail {
       border-radius: 4px;
-      background-image: linear-gradient(to right, #4ba1d8, #4464bd 95%);
+      background-image: linear-gradient(to right, #ff8ab6, #e33074 95%);
       &:hover {
         box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;
       }
@@ -201,7 +201,11 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 82px;
     flex-direction: column;
-    background-color: ${themeGet('colors.white', '#ffffff')};
+    background-image: linear-gradient(
+      135deg,
+      rgba(255,255,255) 70%,
+      rgba(201, 147, 0) 30%
+    );
     transition: all 0.3s ease;
     color: ${themeGet('colors.secondary', '#000')};
     &.active {
@@ -240,18 +244,15 @@ export const MobileMenu = styled.div`
       border-radius: 4px;
       background-image: -moz-linear-gradient(
         -31deg,
-        rgb(64, 219, 216) 0%,
-        rgb(44, 31, 132) 100%
+       #ff8ab6 0%, #e33074 95%
       );
       background-image: -webkit-linear-gradient(
         -31deg,
-        rgb(64, 219, 216) 0%,
-        rgb(44, 31, 132) 100%
+       #ff8ab6 0%, #e33074 95%
       );
       background-image: -ms-linear-gradient(
         -31deg,
-        rgb(64, 219, 216) 0%,
-        rgb(44, 31, 132) 100%
+       #ff8ab6 0%, #e33074 95%
       );
       @media only screen and (max-width: 480px) {
         margin-top: 20px;
