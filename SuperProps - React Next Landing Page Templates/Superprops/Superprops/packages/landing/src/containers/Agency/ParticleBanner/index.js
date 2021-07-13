@@ -8,6 +8,7 @@ import Particle4 from 'common/assets/image/agency/particles/particle-4.png';
 import Particle5 from 'common/assets/image/agency/particles/particle-5.png';
 import Particle6 from 'common/assets/image/agency/particles/particle-2.png';
 import Particle7 from 'common/assets/image/agency/particles/particle-4.png';
+import { divModeExecute } from 'tsparticles/Utils';
 
 const ParticlesComponent = () => {
   return (
@@ -15,76 +16,117 @@ const ParticlesComponent = () => {
       <Particles
         className="particle"
         params={{
-          particles: {
-            number: {
-              value: 30,
-              density: { enable: true, value_area: 800 },
+            fpsLimit: 60,
+            particles: {
+              number: {
+                value: 0,
+                density: {
+                  enable: true,
+                  value_area: 800
+                }
+              },
+              color: {
+                value: "#ff0000",
+                animation: {
+                  enable: true,
+                  speed: 20,
+                  sync: true
+                }
+              },
+              shape: {
+                type: "image",
+                options: {
+                  image: {
+                    src:
+                      "https://www.blog.jonnycornwell.com/wp-content/uploads/2012/07/Smoke10.png",
+                    width: 256,
+                    height: 256
+                  }
+                }
+              },
+              opacity: {
+                value: 1,
+                random: false,
+                animation: {
+                  enable: true,
+                  speed: 0.5,
+                  minimumValue: 0,
+                  sync: false
+                }
+              },
+              size: {
+                value: 64,
+                random: { enable: true, minimumValue: 32 },
+                animation: {
+                  enable: false,
+                  speed: 20,
+                  minimumValue: 0.1,
+                  sync: false
+                }
+              },
+              links: {
+                enable: false,
+                distance: 100,
+                color: "#ffffff",
+                opacity: 0.4,
+                width: 1
+              },
+              life: {
+                duration: {
+                  value: 20
+                },
+                count: 1
+              },
+              move: {
+                enable: true,
+                gravity: {
+                  enable: true,
+                  acceleration: -0.5
+                },
+                speed: 0.1,
+                direction: "top",
+                random: false,
+                straight: false,
+                outModes: {
+                  default: "destroy",
+                  bottom: "none"
+                },
+                attract: {
+                  enable: true,
+                  distance: 300,
+                  rotate: {
+                    x: 60,
+                    y: 120
+                  }
+                }
+              }
             },
-
-            shape: {
-              type: ['images'],
-              images: [
-                {
-                  src: `${Particle1}`,
-                  width: 25,
-                  height: 25,
-                },
-                {
-                  src: `${Particle2}`,
-                  width: 18,
-                  height: 18,
-                },
-                {
-                  src: `${Particle3}`,
-                  width: 32,
-                  height: 32,
-                },
-                {
-                  src: `${Particle4}`,
-                  width: 41,
-                  height: 41,
-                },
-                {
-                  src: `${Particle5}`,
-                  width: 22,
-                  height: 22,
-                },
-                {
-                  src: `${Particle6}`,
-                  width: 22,
-                  height: 22,
-                },
-                {
-                  src: `${Particle7}`,
-                  width: 22,
-                  height: 22,
-                },
-              ],
+            interactivity: {
+              detectsOn: "canvas",
+              events: {
+                resize: true
+              }
             },
-            opacity: {
-              value: 0.17626369048095938,
-              random: true,
-              anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
+            detectRetina: true,
+            background: {
+              color: "#000000"
             },
-            size: {
-              value: 10,
-              random: false,
-            },
-            line_linked: {
-              enable: false,
-            },
-            move: {
-              enable: true,
-              speed: 1.5,
-              direction: 'none',
-              random: false,
-              straight: false,
-              bounce: true,
-              attract: { enable: true, rotateX: 100, rotateY: 400 },
-            },
-          },
-          retina_detect: true,
-        }}
+            emitters: {
+              direction: "top",
+              rate: {
+                quantity: 50,
+                delay: 0.05
+              },
+              size: {
+                width: 100,
+                height: 10
+              },
+              position: { //muito importante isto, e onde comeca
+                x: 50,
+                y: 100
+              }
+            }
+          }}
       />
     </>
   );
