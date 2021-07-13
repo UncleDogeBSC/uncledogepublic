@@ -21,7 +21,7 @@ import Tilt from 'react-parallax-tilt';
 import Particles from '../../Agency/Particle';
 import ParticlesBanner from '../../Agency/ParticleBanner';
 
-
+import Newsletter from 'containers/CryptoModern/Newsletter';
 const Banner = () => {
   return (
     
@@ -73,6 +73,7 @@ const Banner = () => {
           </BannerImage>
         </Tilt>
       </Container>
+      <Newsletter />
     </BannerWrapper>
   );
 };

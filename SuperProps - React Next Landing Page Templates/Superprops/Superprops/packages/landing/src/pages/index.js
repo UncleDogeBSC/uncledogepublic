@@ -23,6 +23,8 @@ import GlobalStyle, {
   ContentWrapper,
 } from 'containers/CryptoModern/cryptoModern.style';
 
+import { ParallaxProvider } from "react-scroll-parallax";
+
 const Main = () => {
   return (
     
@@ -53,13 +55,14 @@ const Main = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            <Newsletter />
+            
             
             <Features />
-            
-            <FundRaising />
-            <FundRaising2/>
-            <FundRaising3/>
+            <ParallaxProvider>
+              <FundRaising />
+              <FundRaising2/>
+              <FundRaising3/>
+            </ParallaxProvider>
             <WorkHistory />
             
           {/*  <Investment />
