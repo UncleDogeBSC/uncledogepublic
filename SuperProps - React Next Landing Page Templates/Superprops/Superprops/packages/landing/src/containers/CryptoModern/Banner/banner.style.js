@@ -99,7 +99,7 @@ export const BannerImage = styled.div`
   img {
     margin-left: 80px;
     @media only screen and (max-width: 1600px) {
-      margin-left: 0;
+      margin-left: 50;
     }
     @media only screen and (max-width: 480px) {
       max-width: 70%;
