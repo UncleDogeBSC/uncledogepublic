@@ -7,7 +7,7 @@ const NewsletterWrapper = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 60px 80px;
+  padding: 30px 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +32,7 @@ const NewsletterWrapper = styled.div`
   }
   .particle {
     position: absolute;
+    z-index:-10;
     width: 100%;
     height: 100%;
     top: 0;
