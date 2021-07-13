@@ -15,7 +15,7 @@ import BannerWrapper, {
   ButtonGroup,
 } from './banner.style';
 import Link from 'next/link'  
-import sticker1 from 'common/assets/image/agency/sticker1.png';
+import uncleBoss from 'common/assets/image/agency/uncleBoss.png';
 import bannerImg from 'common/assets/image/cryptoModern/banner-bg.png';
 
 const Banner = () => {
@@ -54,9 +54,9 @@ const Banner = () => {
             </ButtonGroup>
           </Fade>
         </BannerContent>
-        <BannerImage style={{width:"500px"}}>
+        <BannerImage style={{width:"700px"}}>
           <Fade in delay={100}>
-            <Image src={sticker1} alt="Banner" />
+            <Image src={uncleBoss} alt="Banner" />
           </Fade>
         </BannerImage>
       </Container>
