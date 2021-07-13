@@ -10,6 +10,7 @@ import CopyrightSection2 from '../CopyrightsSection2';
 import NewsletterWrapper, { ContactFormWrapper } from './newsletter.style';
 import Particles from '../../Agency/Particle';
 
+
 const Newsletter = ({
   sectionWrapper,
   textArea,
