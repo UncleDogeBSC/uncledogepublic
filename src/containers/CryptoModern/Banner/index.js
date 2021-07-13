@@ -64,8 +64,7 @@ const Banner = () => {
             </ButtonGroup>
           </Fade>
         </BannerContent>
-        <Tilt >
-        
+        <Tilt glareColor="#ffffff">
           <BannerImage style={{width:"700px"}}>
             <Fade in delay={100}>
               <Image src={uncleBoss} alt="Banner" />
