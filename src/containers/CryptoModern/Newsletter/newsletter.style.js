@@ -3,7 +3,7 @@ import BannerBG from 'common/assets/image/cryptoModern/get-start.png';
 
 const NewsletterWrapper = styled.div`
   position: relative;
-  background:rgba(0,0,0,0.5);
+  background:transparent;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@ const NewsletterWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  
   z-index: 1;
   margin-top: 0px;
   margin-bottom:100px;
@@ -102,7 +102,7 @@ export const ContactFormWrapper = styled.div`
       font-weight: 300;
       color: #fff;
       padding: 10px 15px;
-      border-color: rgba(255, 255, 255, 0.3);
+    
       @media (max-width: 575px) {
         height: 48px;
       }
@@ -118,7 +118,7 @@ export const ContactFormWrapper = styled.div`
     }
   }
   .reusecore__button {
-    background-color: #ffffff;
+    background-color: transparent;
     color: #03103b;
     font-size: 14px;
     letter-spacing: -0.1px;
@@ -127,7 +127,7 @@ export const ContactFormWrapper = styled.div`
     padding-right: 16px;
     text-transform: uppercase;
     &:hover {
-      box-shadow: #ffffff 0px 7px 18px -10px;
+      box-shadow: #transparent ;
     }
   }
 `;

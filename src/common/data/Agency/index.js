@@ -7,6 +7,7 @@ import Member3 from '../../assets/image/agency/team/member-3.jpg';
 import Denny from '../../assets/image/agency/client/denny.png';
 import Menny from '../../assets/image/agency/client/menny.png';
 
+import telegram from '../../../common/data/Agency/telegram.svg'
 const data = {
   menuItems: [
     {
@@ -433,31 +434,19 @@ const data = {
     },
   ],
   social_profile: [
-    {
-      id: 1,
-      icon: 'flaticon-facebook-logo',
-      link: '#1',
-    },
+    
     {
       id: 2,
       icon: 'flaticon-twitter-logo-silhouette',
       link: '#2',
     },
-    {
-      id: 3,
-      icon: 'flaticon-instagram',
-      link: '#3',
-    },
+    
     {
       id: 4,
-      icon: 'flaticon-tumblr-logo',
+      icon: telegram,
       link: '#4',
     },
-    {
-      id: 5,
-      icon: 'flaticon-dribble-logo',
-      link: '#5',
-    },
+    
   ],
 };
 export default data;

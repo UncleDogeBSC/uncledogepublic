@@ -72,8 +72,6 @@ const WorkHistoryWrapper = styled.section`
       width:40px;
     }
   }
- 
-  }
   
 `;
 
@@ -121,7 +119,6 @@ const CounterUpArea = styled.div`
     transition: all 0.3s ease-in-out;
     background-color:rgba(0,0,0,0.4);
     cursor: pointer;
-    box-shadow: 0px 16px 57px 0px rgba(255, 255, 255, 0.2);
     @media (max-width: 767px) {
       width: calc(50% - 13px);
       &:nth-child(2n + 1) {
@@ -150,7 +147,72 @@ const CounterUpArea = styled.div`
         margin-bottom: 10px;
       }
       @media only screen and (max-width: 1200px) {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      color: rgba(142, 199, 255, 0.502);
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 7px;
+      @media (max-width: 990px) {
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+
+    img {
+      opacity: 0.2;
+    }
+
+    &:nth-child(even) {
+      position: relative;
+      top: -70px;
+    }
+  }
+  .card2 {
+    width: calc(50% - 25px);
+    margin-left: 25px;
+    margin-bottom: 27px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    background-image:url('uncleBoss.png');
+    cursor: pointer;
+    @media (max-width: 767px) {
+      width: calc(50% - 13px);
+      &:nth-child(2n + 1) {
+        margin-left: 0;
+      }
+    }
+
+    &:hover {
+      
+      box-shadow: 0px 16px 57px 0px rgba(255, 255, 255, 0.7);
+    }
+
+    h3 {
+      font-size: 25px;
+      font-weight: 400;
+      margin: 30px 0 10px;
+      
+      color: ${themeGet('colors.white', '#fff')};
+      @media (max-width: 767px) {
         font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      @media only screen and (max-width: 991px) {
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      @media only screen and (max-width: 1200px) {
+        font-size: 18px;
         margin-bottom: 10px;
       }
     }

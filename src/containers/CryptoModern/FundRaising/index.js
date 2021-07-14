@@ -26,11 +26,12 @@ const DesignedAndBuilt = () => {
  
           <div className="content" >
          {/* <Heading content="OUR NEXT STEPS" /> */}
-          <div style={{display:"flex", verticalAlign:"center",marginTop:"0px"}} width="inherit"  marginTop="0px" alignItems="center"  >
+          <div style={{display:"flex", verticalAlign:"center"}}   >
             
-                <Image src={shape1} alt="Shape 1"style={{width:"100px"}} marginTop="0px"/>
+             {/*    <Image src={shape1} alt="Shape 1"style={{width:"62px"}} />*/}
               
-                  <Heading content="Influencer Marketing Campaign" style={{color:"white"}}/>
+                  
+                  <Heading content=" I. Influencer Marketing Campaign" style={{color:"white"}}/>
            </div>
             
                 
@@ -47,10 +48,9 @@ Wait until you see who is next!"style={{color:"white"}} />
           <div className="content" >
          {/* <Heading content="OUR NEXT STEPS" /> */}
           <div style={{display:"flex", verticalAlign:"center",marginTop:"0px"}} width="inherit"  marginTop="0px" alignItems="center"  >
-            
-                <Image src={shape2} alt="Shape 2"style={{width:"100px"}} marginTop="0px"/>
+        
               
-                  <Heading content="Broad Awareness Marketing" style={{color:"white"}}/>
+                  <Heading content=" II. Broad Awareness Marketing" style={{color:"white"}}/>
            </div>
             
              
@@ -75,11 +75,11 @@ Our next push is a broad awareness campaign, ie: billboards, influencers from al
  
           <div className="content" >
          {/* <Heading content="OUR NEXT STEPS" /> */}
-          <div style={{display:"flex", verticalAlign:"center",marginTop:"0px"}} width="inherit"  marginTop="0px" alignItems="center"  >
+          <div style={{display:"flex", verticalAlign:"center"}} width="inherit"  alignItems="center"  >
             
-                <Image src={shape3} alt="Shape 3"style={{width:"100px"}} marginTop="0px"/>
+               
               
-                  <Heading content="30,000 Holders" style={{color:"white"}}/>
+                  <Heading content="III: 30,000 Holders" style={{color:"white"}}/>
            </div>
             
              
