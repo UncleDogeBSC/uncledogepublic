@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
-
+import uncleBoss from 'common/assets/image/agency/wowpatterns-export4.png';
 const WorkHistoryWrapper = styled.section`
   padding: 70px 0 80px;
   overflow: hidden;
-  background-color: rgba(0,0,0,0.6);
+  background-image: url('common/assets/image/agency/uncleBoss.png');
   @media (max-width: 990px) {
     padding: 50px 0 60px 0;
   }
@@ -113,13 +113,15 @@ const CounterUpArea = styled.div`
   .card {
     width: calc(50% - 25px);
     margin-left: 25px;
+    
     margin-bottom: 27px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
-    background-color:rgba(0,0,0,0.4);
+    background-image:url(${uncleBoss});
+    
     cursor: pointer;
     box-shadow: 0px 16px 57px 0px rgba(255, 255, 255, 0.2);
     @media (max-width: 767px) {
@@ -156,7 +158,7 @@ const CounterUpArea = styled.div`
     }
 
     p {
-      color: rgba(142, 199, 255, 0.502);
+      color: rgba(255, 255, 255);
       font-size: 16px;
       font-weight: 500;
       margin-bottom: 7px;
