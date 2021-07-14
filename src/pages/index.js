@@ -71,14 +71,14 @@ const Main = () => {
             
             
             {/* <RoadMap/> */}
-            <Tokenomics/>
+         
             
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
               <FundRaising3/>*/}
             </ParallaxProvider>
-            
+            <Tokenomics/>
             <WorkHistory />
         
           {/*  <Investment />
