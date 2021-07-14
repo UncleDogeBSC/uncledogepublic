@@ -136,14 +136,14 @@ export const ButtonGroup = styled.div`
     font-weight: 500;
     text-transform: uppercase;
     border-radius:5px;
-    background-image: linear-gradient(to right, #d1d1d1, #946862 95%);
+    background-image: linear-gradient(to right, #e3b640, #e5a90d 95%);
     &:hover {
       box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;
     }
 
     &.primary {
       border-radius:5px;
-      background-image: linear-gradient(to right, #d1d1d1, #3a3740 95%);
+      background-image: linear-gradient(to right, #e3b640, #e5a90d 95%);
      
       &:hover {
         box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;

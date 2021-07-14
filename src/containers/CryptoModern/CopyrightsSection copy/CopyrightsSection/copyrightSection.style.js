@@ -13,7 +13,7 @@ const CopyrightWrapper = styled.div`
         margin-right: 0;
       }
       a {
-        color: #ffffff;
+        color: #20201d;
       }
     }
     &:hover {
@@ -27,7 +27,7 @@ const CopyrightWrapper = styled.div`
     }
   }
   p {
-    color: #ffffff;
+    color: #20201d;
     font-size: 16px;
     margin: 0px 0 0;
   }

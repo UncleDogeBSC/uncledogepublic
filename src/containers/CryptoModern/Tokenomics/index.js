@@ -73,19 +73,29 @@ const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
   return (
     <WorkHistoryWrapper id="workHistorySection">
       <Container>
+     
         <Box className="row" {...row}>
-          <Box className="col" {...col}>
+        <Box className="col" {...col}>
             <CounterUpArea>
-            
+           
+              <Card className="card2" {...cardStyle} >
               
+                <h3>
+                  
+                  <CountUp start={0} end={twitterCounter} />
+                </h3>
+                
+
+                <Text content="Twitter Followers" />
+              </Card>
               <Card className="card" {...cardStyle}>
                 
                 <h3>
-                  {currentPrice}$
+                  {currentPrice}
                 </h3>
                 <Text content="Current Price" />
               </Card>
-              <Card className="card" src="uncleBoss"{...cardStyle}>
+              <Card className="card" {...cardStyle}>
                
                 <h3>
                   <CountUp start={0} end={priceChange} duration={5} />%
@@ -101,30 +111,14 @@ const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
                 <Text content="Telegram Members" />
                
               </Card>
-              <Card className="card" {...cardStyle}>
-              
-                <h3>
-                  
-                  <CountUp start={0} end={twitterCounter} />
-                </h3>
-                
-
-                <Text content="Twitter Followers" />
-              </Card>
             </CounterUpArea>
           </Box>
           <Box className="col" {...col}>
-            <FeatureBlock
             
-              title={<Heading content="Real-time data" />}
-              
-             
-             
-            />
             <Image className="imagemUncle" src={uncleBoss}  />
           </Box>
-        </Box>
- 
+          </Box>
+        
       </Container>
     {/*}  <Newsletter2 />*/}
     </WorkHistoryWrapper>
@@ -145,7 +139,7 @@ WorkHistory.propTypes = {
 WorkHistory.defaultProps = {
   // WorkHistory section row default style
   row: {
-    flexBox: true,
+    flexBox: false,
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
@@ -155,14 +149,15 @@ WorkHistory.defaultProps = {
   col: {
     pr: '15px',
     pl: '15px',
-    width: [1, 1, 1 / 2, 1 / 2],
-    flexBox: true,
+    width: 1,
+    flexBox: false,
     alignSelf: 'center',
   },
   // Card default style
   cardStyle: {
     p: ['20px 20px', '30px 20px', '30px 20px', '53px 40px'],
     borderRadius: '10px',
+    
   },
 
   // Button default style
