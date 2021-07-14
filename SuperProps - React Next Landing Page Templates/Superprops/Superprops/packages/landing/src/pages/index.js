@@ -66,7 +66,7 @@ const Main = () => {
             <Banner />
             
             
-            <RoadMap/>
+            {/* <RoadMap/> */}
             <Tokenomics/>
             
             <ParallaxProvider>
