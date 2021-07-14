@@ -20,7 +20,7 @@ export const navbar = {
     },
     {
       id: 3,
-      label: 'RoadMap',
+      label: 'WhitePaper',
       path: '/roadmap',
       offset: '81',
     },
@@ -140,99 +140,55 @@ export const Faq = [
 /* ------------------------------------ */
 export const Footer_Data = [
   {
-    title: 'About Us',
+    title: 'Socials',
     menuItems: [
       {
         url: '#',
-        text: 'Support Center',
+        text: 'Telegram',
       },
       {
         url: '#',
-        text: 'Customer Support',
+        text: 'Twitter',
       },
-      {
-        url: '#',
-        text: 'About Us',
-      },
-      {
-        url: '#',
-        text: 'Copyright',
-      },
-      {
-        url: '#',
-        text: 'Popular Campaign',
-      },
+      
     ],
   },
   {
-    title: 'Our Information',
+    title: 'Charts',
     menuItems: [
       {
         url: '#',
-        text: 'Return Policy',
+        text: 'Poocoin',
       },
       {
         url: '#',
-        text: 'Privacy Policy',
+        text: 'CMC',
       },
       {
         url: '#',
-        text: 'Terms & Conditions',
+        text: 'Dex Tools',
       },
-      {
-        url: '#',
-        text: 'Site Map',
-      },
-      {
-        url: '#',
-        text: 'Store Hours',
-      },
+      
     ],
   },
   {
-    title: 'My Account',
+    title: 'Information',
     menuItems: [
       {
         url: '#',
-        text: 'Press inquiries',
+        text: 'Bsc Scan',
       },
-      {
-        url: '#',
-        text: 'Social media directories',
-      },
-      {
-        url: '#',
-        text: 'Images & B-roll',
-      },
-      {
-        url: '#',
-        text: 'Permissions',
-      },
-      {
-        url: '#',
-        text: 'Speaker requests',
-      },
+      
     ],
   },
   {
-    title: 'Policy',
+    title: 'Become a $UDoge Holder',
     menuItems: [
       {
         url: '#',
-        text: 'Application security',
+        text: 'Uncle Doge Swap',
       },
-      {
-        url: '#',
-        text: 'Software principles',
-      },
-      {
-        url: '#',
-        text: 'Unwanted software policy',
-      },
-      {
-        url: '#',
-        text: 'Responsible supply chain',
-      },
+      
     ],
   },
 ];

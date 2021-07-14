@@ -8,6 +8,7 @@ import SectionWrapper, { ContentWrapper } from './privacy.style';
 import Illustration from 'common/assets/image/cryptoModern/illustration1.png';
 
 const PrivacyPortal = () => {
+  
   return (
     <SectionWrapper>
       <Container>
