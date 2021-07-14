@@ -1,9 +1,18 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
+
 const SectionWrapper = styled.div`
   padding: 0px 0;
   position: relative;
+  
+
+	background: #000000;
+	background-size: 100% auto;
+	background-position: top center;
+  background-repeat:no-repeat;
+	background-attachment: fixed;
+
   @media only screen and (max-width: 667px) {
     padding: 30px 0 0;
   }
@@ -29,6 +38,9 @@ const SectionWrapper = styled.div`
 export const ContentWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+  background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference ;
   align-items: center;
   .image {
     width: 50%;

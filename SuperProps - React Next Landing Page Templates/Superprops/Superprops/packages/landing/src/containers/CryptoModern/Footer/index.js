@@ -7,8 +7,8 @@ import Heading from 'common/components/Heading';
 import Logo from 'common/components/UIElements/Logo';
 import Container from 'common/components/UI/Container';
 import FooterWrapper, { List, ListItem } from './footer.style';
+import LogoImage from 'common/assets/image/cryptoModern/Uncle-Doge-logo.png';
 
-import LogoImage from 'common/assets/image/cryptoModern/logo-white.png';
 
 import { Footer_Data } from 'common/data/CryptoModern';
 
@@ -32,8 +32,8 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@redq.io" {...textStyle} />
-            <Text content="+479-443-9334" {...textStyle} />
+            <Text content="Website Powered by" {...textStyle} />
+            <Text content="com-oddity" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
