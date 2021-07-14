@@ -15,7 +15,7 @@ import Fade from 'react-reveal/Fade';
 
 import Heading from 'common/components/Heading';
 import Image from 'common/components/Image';
-import Timeline from 'timeline'
+// import Timeline from 'timeline'
 
 import SectionWrapper, { ContentWrapper } from './privacy.style';
 import Illustration from 'common/assets/image/cryptoModern/illustration1.png';;
