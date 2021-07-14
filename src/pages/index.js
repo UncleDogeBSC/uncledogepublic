@@ -68,10 +68,10 @@ const Main = () => {
             <RoadMap/>
             <ParallaxProvider>
               <FundRaising />
-              <FundRaising2/>
-              <FundRaising3/>
+            {/*  <FundRaising2/>
+              <FundRaising3/>*/}
             </ParallaxProvider>
-            <Features />
+            
             <WorkHistory />
             
           {/*  <Investment />

@@ -71,7 +71,7 @@ FeatureSection.defaultProps = {
     fontSize: ['30px', '40px'],
     fontWeight: '300',
     letterSpacing: '-0.025em',
-    color:'#000000',
+    color:'#ffffff',
     mb: '15px',
   },
   // section title default style
@@ -79,7 +79,7 @@ FeatureSection.defaultProps = {
     textAlign: 'center',
     fontSize: ['14px', '16px'],
     fontWeight: '400',
-    color:'#000000',
+    color:'#ffffff',
     mb: '0',
     maxWidth: '420px',
     lineHeight: '1.5',
