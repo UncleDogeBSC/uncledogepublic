@@ -19,6 +19,7 @@ import MapSection from 'containers/CryptoModern/MapSection';
 import FaqSection from 'containers/CryptoModern/FaqSection';
 import Newsletter from 'containers/CryptoModern/Newsletter';
 import Footer from 'containers/CryptoModern/Footer';
+import Tokenomics from 'containers/CryptoModern/Tokenomics';
 import GlobalStyle, {
   CryptoWrapper,
   ContentWrapper,
@@ -26,6 +27,9 @@ import GlobalStyle, {
 
 import { ParallaxProvider } from "react-scroll-parallax";
 import $ from 'jquery'; 
+
+import { Container, Grid, Typography } from "@material-ui/core";
+import SideRoadMap from "containers/CryptoModern/SideRoadMap/index";
 
 const Main = () => {
   return (
@@ -65,7 +69,7 @@ const Main = () => {
             <Banner />
             
             
-            <RoadMap/>
+            
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
@@ -73,14 +77,26 @@ const Main = () => {
             </ParallaxProvider>
             
             <WorkHistory />
-            
+        
           {/*  <Investment />
             <FundRaising />
            <Privacypolicy />
             <WalletSection />
             <MapSection />
             <FaqSection />*/}
-            
+         
+          <Container className="container" fixed>
+      <Typography
+        my={12}
+        className="heading"
+        variant="h2"
+        textAlign="center"
+        color="initial"
+      >
+        Roadmap
+      </Typography>
+      <SideRoadMap />
+    </Container>
           </ContentWrapper>
           <CountDown />
           <Footer />
