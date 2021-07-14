@@ -24,7 +24,7 @@ const DesignedAndBuilt = () => {
           <Image src={sticker2} alt="Graph Feature Image" style={{width:"350px", borderRadius:"200px"}} />
           </div>
  
-          <div className="content" >
+          <Container>
          {/* <Heading content="OUR NEXT STEPS" /> */}
           <div style={{display:"flex", verticalAlign:"center"}}   >
             
@@ -42,7 +42,8 @@ We’ve had major celebrity promotions almost everyday. Soulja Boy, Rae Sremmurd
 
 Wait until you see who is next!"style={{color:"white"}} />
              
-          </div>
+          </Container>
+          
           
           <div className="gradientDiv"> </div>
           <div className="content" >
