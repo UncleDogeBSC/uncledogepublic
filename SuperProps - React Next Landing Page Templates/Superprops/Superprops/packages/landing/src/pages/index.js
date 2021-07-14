@@ -70,6 +70,8 @@ const Main = () => {
             <Banner />
             
             
+            {/* <RoadMap/> */}
+            <Tokenomics/>
             
             <ParallaxProvider>
               <FundRaising />
