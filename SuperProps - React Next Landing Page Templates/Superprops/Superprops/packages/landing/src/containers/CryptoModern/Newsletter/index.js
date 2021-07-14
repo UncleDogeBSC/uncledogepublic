@@ -22,14 +22,14 @@ const Newsletter = ({
       <Container>
       
         <NewsletterWrapper>
-        <Particles />
+      
           <Box >
-            <Heading content="JOIN OUR ARMY" {...title}/>
+         {/*}   <Heading content="JOIN OUR ARMY" {...title}/>
             <Text 
               content="
               Become A Uncle Doge Holder"
               {...description}
-            />
+  />*/}
            <CopyrightSection2/>
           </Box>
          
