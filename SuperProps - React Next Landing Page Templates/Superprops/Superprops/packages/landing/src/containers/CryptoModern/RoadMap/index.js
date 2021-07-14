@@ -6,6 +6,7 @@ import Heading from 'common/components/Heading';
 import FeatureBlock from 'common/components/FeatureBlock';
 import { Features } from 'common/data/CryptoModern';
 import Container from 'common/components/UI/Container';
+import StickyBox from "react-sticky-box";
 
 const RoadMapSection = ({
   row,
@@ -21,9 +22,12 @@ const RoadMapSection = ({
 }) => {
   return (
     <>
-      <Container>
-          olafsasdgsdgsd
-      </Container>
+    <div style={{ height: 80, overflow: 'auto' }}>
+  <div style={{ display: 'flex', alignItems: 'flex-start' }}>
+    <StickyBox style={{ border: '3px solid green' }}>Sidebar</StickyBox>
+    <div style={{ height: 150, border: '3px solid blue' }}>Main Content</div>
+  </div>
+</div>
     </>
   );
 };
