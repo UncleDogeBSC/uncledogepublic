@@ -8,6 +8,7 @@ import Banner from 'containers/CryptoModern/Banner';
 import CountDown from 'containers/CryptoModern/CountDown';
 import Features from 'containers/CryptoModern/FeatureSection';
 import RoadMap from 'containers/CryptoModern/RoadMap';
+import Tokenomics from 'containers/CryptoModern/Tokenomics';
 import WorkHistory from 'containers/CryptoModern/WorkHistory';
 import Investment from 'containers/CryptoModern/Investment';
 import FundRaising from 'containers/CryptoModern/FundRaising';
@@ -66,6 +67,8 @@ const Main = () => {
             
             
             <RoadMap/>
+            <Tokenomics/>
+            
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
