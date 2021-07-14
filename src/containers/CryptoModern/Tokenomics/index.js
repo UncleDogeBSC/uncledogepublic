@@ -77,6 +77,57 @@ const TokenomicsSection = ({
           </div>
             </div>
         </Grid>
+        <Grid item xs={12} lg={3} md={3}>
+          <div className='wrapper'>
+            
+
+          <div className='zeusDiv' style={{backgroundImage: "url(" + `${require("common/assets/image/zeus-1.jpg")}` + ")"}} >
+            <div className='contentDiv'>
+              <div className='content'>
+
+              <h2 className='heading'> 4% to Zeus</h2>
+              <p className='extraContent'>
+                The mighty Zeus rests on his throne, ready to strike down and buy back from those who would challenge Olympus’s legacy. 4% of all transactions are used to fund the buyback power of Zeus.
+              </p>
+              </div>
+            </div>
+          </div>
+            </div>
+        </Grid>
+        <Grid item xs={12} lg={3} md={3}>
+          <div className='wrapper'>
+            
+
+          <div className='zeusDiv' style={{backgroundImage: "url(" + `${require("common/assets/image/zeus-1.jpg")}` + ")"}} >
+            <div className='contentDiv'>
+              <div className='content'>
+
+              <h2 className='heading'> 4% to Zeus</h2>
+              <p className='extraContent'>
+                The mighty Zeus rests on his throne, ready to strike down and buy back from those who would challenge Olympus’s legacy. 4% of all transactions are used to fund the buyback power of Zeus.
+              </p>
+              </div>
+            </div>
+          </div>
+            </div>
+        </Grid>
+        <Grid item xs={12} lg={3} md={3}>
+          <div className='wrapper'>
+            
+
+          <div className='zeusDiv' style={{backgroundImage: "url(" + `${require("common/assets/image/zeus-1.jpg")}` + ")"}} >
+            <div className='contentDiv'>
+              <div className='content'>
+
+              <h2 className='heading'> 4% to Zeus</h2>
+              <p className='extraContent'>
+                The mighty Zeus rests on his throne, ready to strike down and buy back from those who would challenge Olympus’s legacy. 4% of all transactions are used to fund the buyback power of Zeus.
+              </p>
+              </div>
+            </div>
+          </div>
+            </div>
+        </Grid>
      
 
       </Grid>
