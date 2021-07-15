@@ -208,7 +208,7 @@ class Section extends React.Component {
       </Typography>
         <Grid container>
           <Grid item lg={4} md={4} className="sm-none">
-            <div className={`collapse navbar-collapse ${this.state.position > 950 && this.state.position < 2800 ? "fixed" :""} main-sidebar`}>
+            <div className={`collapse navbar-collapse ${this.state.position > 950 && this.state.position < 2600 ? "fixed" :""} main-sidebar`}>
               <div className={`indecator ${this.state.index}`} />
               <ul className="nav navbar-nav">
                 {["July", "August", "September"].map((v, i) => (
