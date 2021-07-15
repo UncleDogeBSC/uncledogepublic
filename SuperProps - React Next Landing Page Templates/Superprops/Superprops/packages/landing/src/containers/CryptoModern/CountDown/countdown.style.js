@@ -62,7 +62,7 @@ export const ContentWrapper = styled.div`
         width: 110px;
         height: 100px;
         border-radius: 5px;
-        background-color: #0b1741;
+        background-color: #000000;
         @media (max-width: 480px) {
           width: 70px;
           height: 70px;

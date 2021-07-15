@@ -137,7 +137,8 @@ export const MenuArea = styled.div`
     }
     &.trail {
       border-radius: 4px;
-      background-image: linear-gradient(to right, #d1d1d1, #3a3740 95%);
+      background-image: linear-gradient(to right, #e3b640 0%, #e5a90d 95%);
+      box-shadow: rgba(255, 255, 255, 0.78) 0px 12px 24px -10px;
       &:hover {
         box-shadow: rgba(75, 109, 235, 0.78) 0px 12px 24px -10px;
       }
@@ -198,6 +199,7 @@ export const Search = styled.div`
 
 export const MobileMenu = styled.div`
   display: none;
+  
   @media only screen and (max-width: 991px) {
     display: flex;
     width: 100%;
@@ -210,11 +212,11 @@ export const MobileMenu = styled.div`
     flex-direction: column;
     background-image: linear-gradient(
       135deg,
-      rgba(255,255,255) 70%,
-      rgba(201, 147, 0) 30%
+      rgba(0,0,0) 95%,
+      rgba(255, 255, 255) 0%
     );
     transition: all 0.3s ease;
-    color: ${themeGet('colors.secondary', '#fff')};
+    color: ${themeGet( '#fff')};
     &.active {
       opacity: 1;
       visibility: visible;
@@ -236,12 +238,12 @@ export const MobileMenu = styled.div`
           padding: 13px 0;
           border-radius: 5px;
           transition: all 0.3s ease;
-          color: ${themeGet('colors.secondary', '#000')};
+          color: ${themeGet('colors.secondary', '#fff')};
         }
         &:hover {
           a {
             padding: 13px 15px;
-            color: ${themeGet('colors.primary')};
+            color: fff;
           }
         }
       }
@@ -251,15 +253,15 @@ export const MobileMenu = styled.div`
       border-radius: 4px;
       background-image: -moz-linear-gradient(
         -31deg,
-       #ff8ab6 0%, #e33074 95%
+       #e3b640 0%, #e5a90d 95%
       );
       background-image: -webkit-linear-gradient(
         -31deg,
-       #ff8ab6 0%, #e33074 95%
+       #e3b640 0%, #e5a90d 95%
       );
       background-image: -ms-linear-gradient(
         -31deg,
-       #ff8ab6 0%, #e33074 95%
+       #e3b640 0%, #e5a90d 95%
       );
       @media only screen and (max-width: 480px) {
         margin-top: 20px;

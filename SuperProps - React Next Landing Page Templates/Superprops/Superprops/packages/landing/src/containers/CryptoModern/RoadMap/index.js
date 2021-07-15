@@ -416,7 +416,7 @@ class Section extends React.Component {
                     />
                     <Typography ml={1.9} className="typo-18 ml-2">
                       {" "}
-                      $25 Million Marketcap -> 250 BNB Zeus purchase
+                      $25 Million Marketcap - 250 BNB Zeus purchase
                     </Typography>
                   </Box>
                 </Grid>
@@ -521,7 +521,7 @@ class Section extends React.Component {
                     />
                     <Typography ml={1.9} className="typo-18 ml-2">
                       {" "}
-                      $25 Million Marketcap -> 250 BNB Zeus purchase
+                      $25 Million Marketcap - 250 BNB Zeus purchase
                     </Typography>
                   </Box>
                 </Grid>

@@ -8,9 +8,9 @@ import Banner from 'containers/CryptoModern/Banner';
 import CountDown from 'containers/CryptoModern/CountDown';
 import Features from 'containers/CryptoModern/FeatureSection';
 import RoadMap from 'containers/CryptoModern/RoadMap';
-import Tokenomics from 'containers/CryptoModern/Tokenomics';
+
 import WorkHistory from 'containers/CryptoModern/WorkHistory';
-import Investment from 'containers/CryptoModern/Investment';
+import SGORoadMap from 'containers/CryptoModern/SGORoadMap';
 import FundRaising from 'containers/CryptoModern/FundRaising';
 import FundRaising2 from 'containers/CryptoModern/FundRaising2';
 import FundRaising3 from 'containers/CryptoModern/FundRaising3';
@@ -20,6 +20,7 @@ import MapSection from 'containers/CryptoModern/MapSection';
 import FaqSection from 'containers/CryptoModern/FaqSection';
 import Newsletter from 'containers/CryptoModern/Newsletter';
 import Footer from 'containers/CryptoModern/Footer';
+import Tokenomics from 'containers/CryptoModern/Tokenomics';
 import GlobalStyle, {
   CryptoWrapper,
   ContentWrapper,
@@ -27,6 +28,9 @@ import GlobalStyle, {
 
 import { ParallaxProvider } from "react-scroll-parallax";
 import $ from 'jquery';
+
+import { Container, Grid, Typography } from "@material-ui/core";
+import SideRoadMap from "containers/CryptoModern/SideRoadMap/index";
 
 const Main = () => {
   return (
@@ -76,14 +80,26 @@ const Main = () => {
             </ParallaxProvider>
 
             <WorkHistory />
-
           {/*  <Investment />
             <FundRaising />
            <Privacypolicy />
             <WalletSection />
             <MapSection />
             <FaqSection />*/}
-
+         
+          <Container className="container" fixed>
+    {/*    <Typography
+        my={12}
+        className="heading"
+        variant="h2"
+        textAlign="center"
+        color="initial"
+      >
+        Roadmap
+      </Typography>
+      <SideRoadMap />
+    */}
+    </Container>
           </ContentWrapper>
           <CountDown />
           <Footer />
