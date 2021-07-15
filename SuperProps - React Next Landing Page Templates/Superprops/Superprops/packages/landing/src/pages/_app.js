@@ -5,6 +5,8 @@ import 'swiper/swiper-bundle.css';
 import '../containers/CryptoModern/CountDown/timer.css';
 import 'common/assets/css/icon-example-page.css';
 
+
+
 export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>

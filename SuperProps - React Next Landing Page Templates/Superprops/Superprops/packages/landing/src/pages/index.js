@@ -26,13 +26,13 @@ import GlobalStyle, {
 } from 'containers/CryptoModern/cryptoModern.style';
 
 import { ParallaxProvider } from "react-scroll-parallax";
-import $ from 'jquery'; 
+import $ from 'jquery';
 
 const Main = () => {
   return (
-    
+
       <>
-      
+
         <Head>
           <title>Uncle Doge | Landing page</title>
           <meta name="Description" content="React next landing page" />
@@ -48,8 +48,8 @@ const Main = () => {
 
           <script type="text/javascript" src="dist/ResizeSensor.min.js"></script>
           <script type="text/javascript" src="dist/theia-sticky-sidebar.min.js"></script>
-              
-              
+
+
         </Head>
         {/* end of head */}
 
@@ -64,26 +64,26 @@ const Main = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            
-            
+
+
             <RoadMap/>
             <Tokenomics/>
-            
+
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
               <FundRaising3/>*/}
             </ParallaxProvider>
-            
+
             <WorkHistory />
-            
+
           {/*  <Investment />
             <FundRaising />
            <Privacypolicy />
             <WalletSection />
             <MapSection />
             <FaqSection />*/}
-            
+
           </ContentWrapper>
           <CountDown />
           <Footer />
@@ -93,5 +93,5 @@ const Main = () => {
 
   );
 };
- 
+
 export default Main;
