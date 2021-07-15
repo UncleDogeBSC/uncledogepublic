@@ -300,6 +300,9 @@
   color: #a9fd00;
   font-weight: normal;
 }
+.md-done{
+  display: none!important;
+}
 
 @media (max-width: 960px) {
   #flaticonExample .iconsuse .image {

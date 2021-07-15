@@ -23,9 +23,9 @@ import GlobalStyle, {
 
 const roadmap = () => {
   return (
-    
+
       <>
-        
+
         {/* end of head */}
 
         <ResetCSS />
@@ -48,5 +48,5 @@ const roadmap = () => {
 
   );
 };
- 
+
 export default roadmap;
