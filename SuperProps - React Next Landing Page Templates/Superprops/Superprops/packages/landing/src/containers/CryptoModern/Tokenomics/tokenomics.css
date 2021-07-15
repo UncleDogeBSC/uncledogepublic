@@ -1,239 +1,165 @@
-.wrapper {
+@media only screen and (min-width: 768px) {
+    .col-md-2 {
+        flex: 1 0 20% !important;
+        max-width: 35% !important;
+    }
 }
-.zeusDiv {
+@media only screen and (min-width: 992px) {
+    .col-lg-2 {
+        flex: 1 0 19% !important;
+        max-width: 38% !important;
+    }
+}
+
+.contenedor {
     height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 1;
-    min-height: 500px;
-    position: relative;
-    background-repeat: no-repeat;
-    transition: all 6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    max-height: 600px;
-    overflow: hidden;
+    padding: 5% 0;
 }
-.zeusDiv:hover {
-    transition: all 6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transform: scale(1);
+
+h1 {
+    color: white;
+}
+
+.container_foto {
+    /* background-color: rgba(57, 62, 93, 0.7); */
+    padding: 0;
+    overflow: hidden;
+    max-width: 350px;
+    margin: 5px;
+    /* background: transparent; */
+}
+
+.container_foto article {
+    padding: 10%;
+    position: absolute;
+    bottom: 0;
+    z-index: 99999;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.container_foto h2 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+    opacity: 1;
+    /* border-bottom: #fff solid 1px; */
+}
+
+.container_foto h4 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container_foto img {
+    width: 100%;
+    min-height: 500px;
+    top: 0;
+    left: 0;
+    /* opacity: 0.4; */
+    -webkit-transition: all 6s ease-in-out;
+    -moz-transition: all 6s ease-in-out;
+    -o-transition: all 6s ease-in-out;
+    -ms-transition: all 6s ease-in-out;
+    transition: all 6s ease-in-out;
+}
+#zeus {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f8c348 100%);
+}
+#poseidon {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #00cecb 100%);
+}
+#plutus {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f8c348 100%);
+}
+#favour {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f57137 100%);
+}
+#hades {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f84342 100%);
+}
+.ver_mas {
+    /* background-color: #feb66c; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0;
+    transform: translate(0px, 70px);
+    -webkit-transform: translate(0px, 70px);
+    -moz-transform: translate(0px, 70px);
+    -o-transform: translate(0px, 70px);
+    -ms-transform: translate(0px, 70px);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.ver_mas p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    top: 380;
+    /* padding: 20px; */
+}
+
+/*hovers*/
+
+.container_foto:hover {
     cursor: pointer;
 }
+.container_foto:hover h2 {
+    position: relative;
+    top: 90%;
+}
 
-.contentDiv,
-.contentDiv1,
-.contentDiv2,
-.contentDiv3,.contentDiv4 {
+.container_foto:hover img {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.container_foto:hover article {
+    /* top:-200px; */
+    transform: translate(2px, -69px);
+    -webkit-transform: translate(2px, -69px);
+    -moz-transform: translate(2px, -69px);
+    -o-transform: translate(2px, -69px);
+    -ms-transform: translate(2px, -69px);
+}
+.container_foto:hover article h2 {
+    top: -150px;
+    opacity: 1;
     color: white;
-    position: relative;
-    height: 100%;
-    padding-top: 140%;
-    transition: all 1s linear;
-}
-.content {
-    padding: 5%;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    transition: all 1s linear;
-}
-.contentDiv:hover {
-    padding-top: 60%;
-    height: 70%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f8c348 100%);
-    transition: all 1s ease-in-out;
+    z-index: 999999;
 }
 
-.contentDiv:hover + .extraContent {
+.container_foto:hover .ver_mas {
+    /* top: 320px; */
     display: block;
-    transition: all 0s linear;
-    margin-bottom: 5%;
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    opacity: 1;
 }
-.extraContent {
-    display: none;
-    /* padding: 5%; */
-    padding-top: 0;
-    transition: all 0s linear;
-}
-.contentDiv:hover .extraContent {
-    display: block;
-}
-
-.heading {
-    font-size: 45px;
-    width: 98%;
-    line-height: 1;
-}
-.contentDiv:hover + .heading {
-    line-height: 1;
-    margin-bottom: 0;
-}
-
-/* second */
-
-.content1 {
-    padding: 5%;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    transition: all 1s linear;
-}
-
-.contentDiv1:hover {
-    padding-top: 40%;
-    height: 70%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #00cecb 100%);
-    transition: all 1s ease-in-out;
-}
-.contentDiv1:hover + .extraContent1 {
-    display: block;
-    transition: all 0s linear;
-    margin-bottom: 5%;
-}
-.extraContent1 {
-    display: none;
-    font-size: 15px;
-    /* padding: 5%; */
-    padding-top: 0;
-    transition: all 0s linear;
-}
-.contentDiv1:hover .extraContent1 {
-    display: block;
-}
-
-.heading1 {
-    font-size: 45px;
-    width: 98%;
-    line-height: 1;
-}
-.contentDiv1:hover + .heading1 {
-    line-height: 1;
-    margin-bottom: 0;
-}
-
-/* third */
-
-.content2 {
-    padding: 5%;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    transition: all 1s linear;
-}
-
-.contentDiv2:hover {
-    padding-top: 65%;
-    height: 70%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f8c348 100%);
-
-    transition: all 1s ease-in-out;
-}
-.contentDiv2:hover + .extraContent2 {
-    display: block;
-    transition: all 0s linear;
-    margin-bottom: 5%;
-}
-.extraContent2 {
-    display: none;
-    font-size: 15px;
-    /* padding: 5%; */
-    padding-top: 0;
-    transition: all 0s linear;
-}
-.contentDiv2:hover .extraContent2 {
-    display: block;
-}
-
-.heading2 {
-    font-size: 45px;
-    width: 98%;
-    line-height: 1;
-}
-.contentDiv2:hover + .heading2 {
-    line-height: 1;
-    margin-bottom: 0;
-}
-
-/* third */
-
-.content3 {
-    padding: 5%;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    transition: all 1s linear;
-}
-
-.contentDiv3:hover {
-    padding-top: 85%;
-    height: 70%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f57137 100%);
-
-    transition: all 1s ease-in-out;
-}
-.contentDiv3:hover + .extraContent3 {
-    display: block;
-    transition: all 0s linear;
-    margin-bottom: 5%;
-}
-.extraContent3 {
-    display: none;
-    font-size: 15px;
-    /* padding: 5%; */
-    padding-top: 0;
-    transition: all 0s linear;
-}
-.contentDiv3:hover .extraContent3 {
-    display: block;
-}
-
-.heading3 {
-    font-size: 45px;
-    width: 98%;
-    line-height: 1;
-}
-.contentDiv3:hover + .heading3 {
-    line-height: 1;
-    margin-bottom: 0;
-}
-
-/* third */
-
-.content4 {
-    padding: 5%;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    transition: all 1s linear;
-}
-
-.contentDiv4:hover {
-    padding-top: 60%;
-    height: 70%;
-    background: linear-gradient(to bottom,rgba(0,0,0,0),#f84342 100%);
-    transition: all 1s ease-in-out;
-}
-.contentDiv4:hover + .extraContent4 {
-    display: block;
-    transition: all 0s linear;
-    margin-bottom: 5%;
-}
-.extraContent4 {
-    display: none;
-    font-size: 15px;
-    /* padding: 5%; */
-    padding-top: 0;
-    transition: all 0s linear;
-}
-.contentDiv4:hover .extraContent4 {
-    display: block;
-}
-
-.heading4 {
-    font-size: 45px;
-    width: 98%;
-    line-height: 1;
-}
-.contentDiv4:hover + .heading4 {
-    line-height: 1;
-    margin-bottom: 0;
+.container_foto:hover .ver_mas p {
+    top: 280px;
 }
