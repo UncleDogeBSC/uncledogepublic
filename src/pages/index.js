@@ -71,8 +71,8 @@ const Main = () => {
             
             <SGORoadMap/>
             {/* <RoadMap/> */}
+         
             <Tokenomics/>
-            
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
@@ -89,7 +89,7 @@ const Main = () => {
             <FaqSection />*/}
          
           <Container className="container" fixed>
-      <Typography
+    {/*    <Typography
         my={12}
         className="heading"
         variant="h2"
@@ -99,6 +99,7 @@ const Main = () => {
         Roadmap
       </Typography>
       <SideRoadMap />
+    */}
     </Container>
           </ContentWrapper>
           <CountDown />
