@@ -143,11 +143,11 @@ export const Footer_Data = [
     title: 'Socials',
     menuItems: [
       {
-        url: '#',
+        url: 'https://t.me/UncleDogeOfficial',
         text: 'Telegram',
       },
       {
-        url: '#',
+        url: 'https://twitter.com/UncleDogeBSC',
         text: 'Twitter',
       },
       
@@ -157,16 +157,16 @@ export const Footer_Data = [
     title: 'Charts',
     menuItems: [
       {
-        url: '#',
+        url: 'https://poocoin.app/tokens/0xd2618bc9c9cdc40ff19e200a7d14a09799c0a152',
         text: 'Poocoin',
       },
       {
-        url: '#',
+        url: 'https://coinmarketcap.com/currencies/uncle-doge/',
         text: 'CMC',
       },
       {
-        url: '#',
-        text: 'Dex Tools',
+        url: 'https://charts.bogged.finance/?token=0xD2618bC9c9cDC40ff19e200a7d14A09799C0a152',
+        text: 'Bogged Finance',
       },
       
     ],
@@ -175,7 +175,7 @@ export const Footer_Data = [
     title: 'Information',
     menuItems: [
       {
-        url: '#',
+        url: 'https://bscscan.com/token/0xd2618bc9c9cdc40ff19e200a7d14a09799c0a152',
         text: 'Bsc Scan',
       },
       
@@ -185,7 +185,7 @@ export const Footer_Data = [
     title: 'Become a $UDoge Holder',
     menuItems: [
       {
-        url: '#',
+        url: 'https://swap.uncle-doge.com/#/swap',
         text: 'Uncle Doge Swap',
       },
       
