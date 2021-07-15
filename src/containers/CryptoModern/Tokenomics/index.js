@@ -7,6 +7,42 @@ import FeatureBlock from 'common/components/FeatureBlock';
 import { Features } from 'common/data/CryptoModern';
 import Container from 'common/components/UI/Container';
 
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
+import Image from 'next/image'
+// import uncleBoss from 'common/assets/image/agency/uncleBoss.png';
+import uncleBoss from 'common/assets/image/zeus-1.jpg';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    padding: '1%'
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+  zeusDiv: {
+    height: '100%',
+    width: '100%',
+    // backgroundImage: "url(" + ${require("common/assets/image/zeus-1.jpg")} + ")",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'transform .6s cubic-bezier(.24,1,.3,1),opacity .55s ease .25s',
+    opacity: 1,
+    padding: '11%',
+    minHeight: '500px',
+    position: 'relative',
+    '&: hover':{
+      transition: 'all 6s ease-in-out',
+transform: 'scale(1.2)',
+
+}
+},
+
+}));
+
 const TokenomicsSection = ({
   row,
   col,
@@ -19,6 +55,7 @@ const TokenomicsSection = ({
   contentStyle,
   blockWrapperStyle,
 }) => {
+  const classes = useStyles();
   return (
     <div className={classes.root}>
       <Grid container alignContent='center' spacing={3} >
