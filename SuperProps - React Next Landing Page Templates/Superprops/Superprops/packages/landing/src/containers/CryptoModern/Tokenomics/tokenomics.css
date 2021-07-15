@@ -28,7 +28,7 @@
     color: rgb(255, 255, 255);
     position: relative;
     height: 100%;
-    padding-top: 140%;
+    padding-top: 100%;
     transition: all 1s linear;
 }
 .content {
@@ -42,8 +42,8 @@
 }
 
 .contentDiv:hover {
-    padding-top: 60%;
-    height: 70%;
+    padding-top: 100%;
+    height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #a8a8a8 100%);
     transition: all 1s ease-in-out;
 }
@@ -84,8 +84,8 @@
 }
 
 .contentDiv1:hover {
-    padding-top: 40%;
-    height: 70%;
+    padding-top: 100%;
+    height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #11410d 100%);
     transition: all 1s ease-in-out;
 }
@@ -126,8 +126,8 @@
 }
 
 .contentDiv2:hover {
-    padding-top: 65%;
-    height: 70%;
+    padding-top: 100%;
+    height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f8c348 100%);
 
     transition: all 1s ease-in-out;
@@ -169,8 +169,8 @@
 }
 
 .contentDiv3:hover {
-    padding-top: 85%;
-    height: 70%;
+    padding-top: 100%;
+    height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f57137 100%);
 
     transition: all 1s ease-in-out;
@@ -212,8 +212,8 @@
 }
 
 .contentDiv4:hover {
-    padding-top: 60%;
-    height: 70%;
+    padding-top: 100%;
+    height: 100%;
     background: linear-gradient(to bottom,rgba(0,0,0,0),#f84342 100%);
     transition: all 1s ease-in-out;
 }

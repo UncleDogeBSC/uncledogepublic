@@ -15,7 +15,7 @@ const WorkHistoryWrapper = styled.section`
   
   .feature__block {
     padding-left: 132px;
-    margin-top: -120px;
+    margin-top: 120px;
     @media only screen and (max-width: 1200px) {
       padding-right: 32px;
       padding-left: 15px;
