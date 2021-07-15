@@ -17,6 +17,8 @@ import shape4 from 'common/assets/image/cryptoModern/Shape-4.png';
 import Newsletter2 from 'containers/CryptoModern/Newsletter2';
 import cheerio from 'cheerio'
 import axios from 'axios'
+import uncleBoss from 'common/assets/image/agency/uncleBoss.png';
+import Particles from '../../Agency/Particle';
 
 const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
   
@@ -74,26 +76,22 @@ const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <CounterUpArea>
-              <Card className="card" {...cardStyle}>
-               
-                <h3>
-                  <CountUp start={0} end={twitterCounter} />
-                </h3>
-                <Text content="Twitter Followers" />
-              </Card>
+            
+              
               <Card className="card" {...cardStyle}>
                 
                 <h3>
-                  {currentPrice}
+                  {currentPrice}$
                 </h3>
                 <Text content="Current Price" />
               </Card>
-              <Card className="card" {...cardStyle}>
+              <Card className="card" src="uncleBoss"{...cardStyle}>
                
                 <h3>
                   <CountUp start={0} end={priceChange} duration={5} />%
                 </h3>
                 <Text content="Price Change" />
+                
               </Card>
               <Card className="card" {...cardStyle}>
              
@@ -101,21 +99,34 @@ const WorkHistory = ({ row, col, cardStyle, btnStyle }) => {
                   <CountUp start={0} end={telegramCounter} duration={5} />
                 </h3>
                 <Text content="Telegram Members" />
+               
+              </Card>
+              <Card className="card" {...cardStyle}>
+              
+                <h3>
+                  
+                  <CountUp start={0} end={twitterCounter} />
+                </h3>
+                
+
+                <Text content="Twitter Followers" />
               </Card>
             </CounterUpArea>
           </Box>
           <Box className="col" {...col}>
             <FeatureBlock
+            
               title={<Heading content="Real-time data" />}
-              description={
-                <Text content="Join the army and enjoy the benefits from our thoroughly tested and proven tokenomics system. It is designed to provide a healthy chart and reward loyal holders long term. " />
-              }
+              
+             
              
             />
+            <Image className="imagemUncle" src={uncleBoss}  />
           </Box>
         </Box>
+ 
       </Container>
-      <Newsletter2 />
+    {/*}  <Newsletter2 />*/}
     </WorkHistoryWrapper>
   );
 };
@@ -139,6 +150,7 @@ WorkHistory.defaultProps = {
     ml: '-15px',
     mr: '-15px',
   },
+  
   // WorkHistory section col default style
   col: {
     pr: '15px',

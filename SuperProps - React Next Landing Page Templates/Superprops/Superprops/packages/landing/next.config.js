@@ -1,6 +1,8 @@
 const withPlugins = require('next-compose-plugins');
 const withOptimizedImages = require('next-optimized-images');
 const withFonts = require('next-fonts');
+const withImages = require('next-images')
+module.exports = withImages()
 
 const nextConfig = {
   // distDir: '../../dist/functions/next'

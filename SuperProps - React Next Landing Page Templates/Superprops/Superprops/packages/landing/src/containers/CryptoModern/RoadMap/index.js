@@ -75,7 +75,7 @@ const styles = theme => ({
       textAlign: 'center',
       fontFamily: '"Vollkorn", serif !important',
       padding: '80px 0',
-      backgroundImage: `linear-gradient(to right, #f84342, #f8c348);
+      backgroundImage: `linear-gradient(to right, #917a01, #b5a033);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;`
     },
@@ -421,7 +421,7 @@ class Section extends React.Component {
                   </Box>
                 </Grid>
                 <Grid item lg={6} md={6} className="sm-none">
-                  <img src="/zeus-1.jpeg" width="100%" />
+                  <img src="/yellowUncle.png" width="100%" />
                 </Grid>
               </Grid>
             </Element>
@@ -526,7 +526,7 @@ class Section extends React.Component {
                   </Box>
                 </Grid>
                 <Grid item lg={6} md={6} className="sm-none">
-                  <img src="/athena.jpeg" width="100%" />
+                  <img src="/greenUncle.png" width="100%" />
                 </Grid>
               </Grid>
             </Element>
@@ -617,7 +617,7 @@ class Section extends React.Component {
                   </Box>
                 </Grid>
                 <Grid item lg={6} md={6} className="sm-none">
-                  <img src="/poseidon.jpeg" width="100%" />
+                  <img src="/blueUncle.png" width="100%" />
                 </Grid>
               </Grid>
             </Element>

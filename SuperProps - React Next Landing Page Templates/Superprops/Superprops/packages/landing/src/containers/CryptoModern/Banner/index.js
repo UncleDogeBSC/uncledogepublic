@@ -16,6 +16,7 @@ import BannerWrapper, {
 } from './banner.style';
 import Link from 'next/link'  
 import uncleBoss from 'common/assets/image/agency/uncleBoss.png';
+import sticker1 from 'common/assets/image/agency/sticker1.png';
 import bannerImg from 'common/assets/image/cryptoModern/banner-bg.png';
 import Tilt from 'react-parallax-tilt';
 import Particles from '../../Agency/Particle';
@@ -66,7 +67,7 @@ const Banner = () => {
         <Tilt glareColor="#ffffff">
           <BannerImage style={{width:"700px"}}>
             <Fade in delay={100}>
-              <Image src={uncleBoss} alt="Banner" />
+              <Image src={sticker1} alt="Banner" />
             </Fade>
           </BannerImage>
         </Tilt>
