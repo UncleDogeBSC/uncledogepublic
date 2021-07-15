@@ -17,7 +17,7 @@ import ReactDOM from 'react-dom';
 const styles = theme => ({
   main:{
     fontFamily: '"Montserrat", sans-serif !important',
-    backgroundColor: '#152a40 !important'
+    backgroundColor: '#000000 !important'
   },
   Container:{
     '& .main-sidebar' :{
@@ -75,7 +75,7 @@ const styles = theme => ({
       textAlign: 'center',
       fontFamily: '"Vollkorn", serif !important',
       padding: '80px 0',
-      backgroundImage: `linear-gradient(to right, #f84342, #f8c348);
+      backgroundImage: `linear-gradient(to right, #e3b640, #e5a90d);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;`
     },
