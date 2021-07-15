@@ -119,7 +119,9 @@ export const BannerImage = styled.div`
       margin-left: 50;
     }
     @media only screen and (max-width: 480px) {
-      max-width: 30%;
+      
+      max-width: 0%;
+      
     }
   }
 `;

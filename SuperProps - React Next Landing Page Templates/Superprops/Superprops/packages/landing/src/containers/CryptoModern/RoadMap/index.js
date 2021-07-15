@@ -16,7 +16,7 @@ import ReactDOM from 'react-dom';
 
 const styles = theme => ({
   main:{
-    fontFamily: '"Montserrat", sans-serif !important',
+    fontFamily: '"Roboto", sans-serif !important',
     backgroundColor: '#000000 !important'
   },
   Container:{
@@ -48,7 +48,7 @@ const styles = theme => ({
       }
     },
     '& .indecator':{
-      background: 'linear-gradient(to bottom, #f8c348, #f84342)',
+      background: 'linear-gradient(to bottom, #e3b640, #e5a90d)',
       width: 3,
       height: 42,
       position: 'absolute',
@@ -73,7 +73,7 @@ const styles = theme => ({
       fontWeight: '800 !important',
       fontSize: 60,
       textAlign: 'center',
-      fontFamily: '"Vollkorn", serif !important',
+      fontFamily: '"Roboto", sans-serif !important',
       padding: '80px 0',
       backgroundImage: `linear-gradient(to right, #e3b640, #e5a90d);
       -webkit-background-clip: text;
@@ -83,7 +83,7 @@ const styles = theme => ({
       marginBottom: 200,
     },
     '& .list p': {
-      fontFamily: '"Montserrat", sans-serif !important'
+      fontFamily: '"Roboto", sans-serif !important'
     },
     '& .active a': {
       color:' #fff !important'
