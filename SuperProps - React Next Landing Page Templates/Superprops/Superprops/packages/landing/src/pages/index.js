@@ -10,7 +10,7 @@ import Features from 'containers/CryptoModern/FeatureSection';
 import RoadMap from 'containers/CryptoModern/RoadMap';
 
 import WorkHistory from 'containers/CryptoModern/WorkHistory';
-import Investment from 'containers/CryptoModern/Investment';
+import SGORoadMap from 'containers/CryptoModern/SGORoadMap';
 import FundRaising from 'containers/CryptoModern/FundRaising';
 import FundRaising2 from 'containers/CryptoModern/FundRaising2';
 import FundRaising3 from 'containers/CryptoModern/FundRaising3';
@@ -75,10 +75,10 @@ const Main = () => {
           <ContentWrapper>
             <Banner />
             
-            
+            <SGORoadMap/>
             {/* <RoadMap/> */}
+         
             <Tokenomics/>
-            
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
@@ -95,7 +95,7 @@ const Main = () => {
             <FaqSection />*/}
          
           <Container className="container" fixed>
-      <Typography
+    {/*    <Typography
         my={12}
         className="heading"
         variant="h2"
@@ -105,6 +105,7 @@ const Main = () => {
         Roadmap
       </Typography>
       <SideRoadMap />
+    */}
     </Container>
           </ContentWrapper>
           <CountDown />

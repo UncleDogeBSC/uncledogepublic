@@ -6,6 +6,7 @@ import '../containers/CryptoModern/CountDown/timer.css';
 import 'common/assets/css/icon-example-page.css';
 import '../containers/CryptoModern/Tokenomics/tokenomics.css'
 
+
 export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>

@@ -42,7 +42,7 @@ We’ve had major celebrity promotions almost everyday. Soulja Boy, Rae Sremmurd
 
 Wait until you see who is next!"style={{color:"white"}} />
              
-          </div>
+             </div>
           
           <div className="gradientDiv"> </div>
           <div className="content" >

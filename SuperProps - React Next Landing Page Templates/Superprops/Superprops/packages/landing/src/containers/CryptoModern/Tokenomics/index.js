@@ -6,6 +6,7 @@ import Heading from 'common/components/Heading';
 import FeatureBlock from 'common/components/FeatureBlock';
 import { Features } from 'common/data/CryptoModern';
 import Container from 'common/components/UI/Container';
+
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Image from 'next/image'
@@ -15,9 +16,6 @@ import Poseidon from 'common/assets/image/poseidon.jpg';
 import Plutus from 'common/assets/image/plutus.jpg';
 import Favor from 'common/assets/image/favor.jpg';
 import Hades from 'common/assets/image/hades.jpg';
-
-// import './tokenomics.css'
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   zeusDiv: {
     height: '100%',
     width: '100%',
-    // backgroundImage: "url(" + `${require("common/assets/image/zeus-1.jpg")}` + ")",
+    // backgroundImage: "url(" + ${require("common/assets/image/zeus-1.jpg")} + ")",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     transition: 'transform .6s cubic-bezier(.24,1,.3,1),opacity .55s ease .25s',
@@ -48,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
 }));
+
 const TokenomicsSection = ({
   row,
   col,
