@@ -1,5 +1,5 @@
 .wrapper {
-    
+   
 }
 .zeusDiv {
     height: 100%;
@@ -28,7 +28,7 @@
     color: rgb(255, 255, 255);
     position: relative;
     height: 100%;
-    padding-top: 140%;
+    padding-top: 120%;
     transition: all 1s linear;
 }
 .content {

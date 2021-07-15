@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     padding: '1%'
+    
   },
   paper: {
     padding: theme.spacing(2),
@@ -26,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   zeusDiv: {
     height: '100%',
     width: '100%',
+    
     // backgroundImage: "url(" + ${require("common/assets/image/zeus-1.jpg")} + ")",
     backgroundSize: 'cover',
     backgroundPosition: 'center',

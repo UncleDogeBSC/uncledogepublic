@@ -208,7 +208,7 @@ class Section extends React.Component {
       </Typography>
         <Grid container>
           <Grid item lg={4} md={4} className="sm-none">
-            <div className={`collapse navbar-collapse ${this.state.position > 950 && this.state.position < 3500 ? "fixed" :""} main-sidebar`}>
+            <div className={`collapse navbar-collapse ${this.state.position > 950 && this.state.position < 2800 ? "fixed" :""} main-sidebar`}>
               <div className={`indecator ${this.state.index}`} />
               <ul className="nav navbar-nav">
                 {["July", "August", "September"].map((v, i) => (
@@ -421,7 +421,7 @@ class Section extends React.Component {
                   </Box>
                 </Grid>
                 <Grid item lg={6} md={6} className="sm-none">
-                  <img src="/zeus-1.jpeg" width="100%" />
+                  <img src="/yellowUncle.png" width="100%" />
                 </Grid>
               </Grid>
             </Element>
@@ -526,7 +526,7 @@ class Section extends React.Component {
                   </Box>
                 </Grid>
                 <Grid item lg={6} md={6} className="sm-none">
-                  <img src="/athena.jpeg" width="100%" />
+                  <img src="/blueUncle.png" width="100%" />
                 </Grid>
               </Grid>
             </Element>
@@ -617,7 +617,7 @@ class Section extends React.Component {
                   </Box>
                 </Grid>
                 <Grid item lg={6} md={6} className="sm-none">
-                  <img src="/poseidon.jpeg" width="100%" />
+                  <img src="/greenUncle.png" width="100%" />
                 </Grid>
               </Grid>
             </Element>
