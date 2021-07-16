@@ -96,7 +96,7 @@ const TokenomicsSection = ({
     <div>
       <div className=" row text-center p-3">
         {details?.map((item) => (
-          <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 container_foto ">
+          <div className="col-sm-12 col-xs-12 container_foto " id='cus-col'>
             <article className="text-left">
               <h2>{item.title}</h2>
             </article>
