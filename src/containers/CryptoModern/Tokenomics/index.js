@@ -40,7 +40,7 @@ const TokenomicsSection = () => {
   ]
   return (
     <div>
-      <div className=" row text-center p-3">
+      <div className=" row text-center p-3 myGrid">
         {details?.map((item) => (
           <div className="col-sm-12 col-xs-12 container_foto " id='cus-col'>
             <article className="text-left">

@@ -35,61 +35,61 @@ import SideRoadMap from "containers/CryptoModern/SideRoadMap/index";
 const Main = () => {
   return (
 
-      <>
+    <>
 
-        <Head>
-          <title>Uncle Doge | Landing page</title>
-          <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#2563FF" />
-          <meta
-            name="keywords"
-            content="React, React js, Next, Next js, Super fast next js landing, Modren landing, Next js landing"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
-            rel="stylesheet"
-          />
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
-
-          <script type="text/javascript" src="dist/ResizeSensor.min.js"></script>
-          <script type="text/javascript" src="dist/theia-sticky-sidebar.min.js"></script>
+      <Head>
+        <title>Uncle Doge | Landing page</title>
+        <meta name="Description" content="React next landing page" />
+        <meta name="theme-color" content="#2563FF" />
+        <meta
+          name="keywords"
+          content="React, React js, Next, Next js, Super fast next js landing, Modren landing, Next js landing"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+          rel="stylesheet"
+        />
 
 
-        </Head>
-        {/* end of head */}
-
-        <ResetCSS />
-        <GlobalStyle />
-        {/* end of global and reset style */}
-
-        {/* start app classic landing */}
-        <CryptoWrapper>
-          <Sticky top={0} innerZ={9999} activeClass="sticky-active">
-            <Navbar />
-          </Sticky>
-          <ContentWrapper>
-            <Banner />
+        <script type="text/javascript" src="dist/ResizeSensor.min.js"></script>
+        <script type="text/javascript" src="dist/theia-sticky-sidebar.min.js"></script>
 
 
-            <RoadMap/>
-            <Tokenomics/>
+      </Head>
+      {/* end of head */}
 
-            <ParallaxProvider>
-              <FundRaising />
+      <ResetCSS />
+      <GlobalStyle />
+      {/* end of global and reset style */}
+
+      {/* start app classic landing */}
+      <CryptoWrapper>
+        <Sticky top={0} innerZ={9999} activeClass="sticky-active">
+          <Navbar />
+        </Sticky>
+        <ContentWrapper>
+          <Banner />
+
+
+          <RoadMap />
+          <Tokenomics />
+
+          <ParallaxProvider>
+            <FundRaising />
             {/*  <FundRaising2/>
               <FundRaising3/>*/}
-            </ParallaxProvider>
+          </ParallaxProvider>
 
-            <WorkHistory />
+          <WorkHistory />
           {/*  <Investment />
             <FundRaising />
            <Privacypolicy />
             <WalletSection />
             <MapSection />
             <FaqSection />*/}
-         
+
           <Container className="container" fixed>
-    {/*    <Typography
+            {/*    <Typography
         my={12}
         className="heading"
         variant="h2"
@@ -100,13 +100,13 @@ const Main = () => {
       </Typography>
       <SideRoadMap />
     */}
-    </Container>
-          </ContentWrapper>
-          <CountDown />
-          <Footer />
-        </CryptoWrapper>
-        {/* end of app classic landing */}
-      </>
+          </Container>
+        </ContentWrapper>
+        <CountDown />
+        <Footer />
+      </CryptoWrapper>
+      {/* end of app classic landing */}
+    </>
 
   );
 };
