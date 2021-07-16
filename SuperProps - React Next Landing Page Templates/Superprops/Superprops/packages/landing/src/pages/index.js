@@ -27,16 +27,16 @@ import GlobalStyle, {
 } from 'containers/CryptoModern/cryptoModern.style';
 
 import { ParallaxProvider } from "react-scroll-parallax";
-import $ from 'jquery'; 
+import $ from 'jquery';
 
 import { Container, Grid, Typography } from "@material-ui/core";
 import SideRoadMap from "containers/CryptoModern/SideRoadMap/index";
 
 const Main = () => {
   return (
-    
+
       <>
-      
+
         <Head>
           <title>Uncle Doge | Landing page</title>
           <meta name="Description" content="React next landing page" />
@@ -58,8 +58,8 @@ const Main = () => {
 
           <script type="text/javascript" src="dist/ResizeSensor.min.js"></script>
           <script type="text/javascript" src="dist/theia-sticky-sidebar.min.js"></script>
-              
-              
+
+
         </Head>
         {/* end of head */}
 
@@ -74,39 +74,24 @@ const Main = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
-            
-            <SGORoadMap/>
-            {/* <RoadMap/> */}
-         
+
+
+            <RoadMap/>
             <Tokenomics/>
+
             <ParallaxProvider>
               <FundRaising />
             {/*  <FundRaising2/>
               <FundRaising3/>*/}
             </ParallaxProvider>
-            
+
             <WorkHistory />
-        
           {/*  <Investment />
             <FundRaising />
            <Privacypolicy />
             <WalletSection />
             <MapSection />
             <FaqSection />*/}
-         
-          <Container className="container" fixed>
-    {/*    <Typography
-        my={12}
-        className="heading"
-        variant="h2"
-        textAlign="center"
-        color="initial"
-      >
-        Roadmap
-      </Typography>
-      <SideRoadMap />
-    */}
-    </Container>
           </ContentWrapper>
           <CountDown />
           <Footer />
@@ -116,5 +101,5 @@ const Main = () => {
 
   );
 };
- 
+
 export default Main;
