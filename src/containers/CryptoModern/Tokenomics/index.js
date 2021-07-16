@@ -5,38 +5,46 @@ import Plutus from 'common/assets/image/plutus.jpg';
 import Favor from 'common/assets/image/favor.jpg';
 import Hades from 'common/assets/image/hades.jpg';
 
+import sticker5animated from 'common/assets/image/agency/sticker5animated.gif'
+import sticker6animated from 'common/assets/image/agency/sticker6animated.gif'
+import sticker8animated from 'common/assets/image/agency/sticker8animated.gif'
+import sticker9animated from 'common/assets/image/agency/sticker9animated.gif'
+import sticker10animated from 'common/assets/image/agency/sticker10animated.gif'
+
 const TokenomicsSection = () => {
   const details = [
     {
-      title: '4% of Zeus',
-      detail: 'The mighty Zeus rests on his throne, ready to strike down and buy back from those who would challenge Olympus’s legacy. 4% of all transactions are used to fund the buyback power of Zeus.',
+      title: 'Token Tax(total)',
+      detail: '11% Transaction Tax.',
       id: 'zeus',
-      image: Zeus
+      image: sticker5animated
     },
     {
-      title: '4% to Poseidon',
-      detail: 'With each trade, 4% is added to the liquidity pool to calm the waters. However, to keep balance and order in Olympus, when liquidity is above 25% of the total market cap this tax will be paid to Zeus as tribute, lifting Olympus back to its proper place in the heavens, the first dynamic liquidity generation of its kind.',
+      title: 'Liquidity',
+      detail: '10% of tax goes to liquidity.',
       id: 'poseidon',
-      image: Poseidon
+      image: sticker6animated
     },
     {
-      title: '4% of Plutus',
-      detail: '4% to Plutus The God of Wealth, Plutus bestows wealth upon the worshipers of Olympus, rewarding their faith in the Omnipotent Zeus. 4% of each transaction will be converted to BUSD and sent automatically to the wallets of the followers of Zeus.',
+      title: 'Holders',
+      detail: '1% Redistributed to Holders.',
       id: 'plutus',
-      image: Plutus
+      image: sticker8animated
     },
     {
-      title: '2% of Favour',
-      detail: '2% to Favour In order to further explore the full potential of Olympus, 2% will be sent to a wallet as favour for development and marketing purposes, controlled by the gods themselves.',
+      title: 'Total Supply',
+      detail: '1 Quadrillion Initial Supply.',
       id: 'favour',
-      image: Favor
+      image: sticker9animated
     },
     {
-      title: 'Tribute to Hades',
-      detail: 'Tribute to Hades Having been thrown out of Olympus, betrayed by his own brothers and sisters, Hades rules the underworld, feeding on the souls of the lost. After each buyback, transaction fees FOR SELLS are doubled for 30 minutes, descending to the original rate with each minute',
+      title: 'More',
+      detail: "Presale 50% Liquidity 35%  Burn 2.68%  Airdrop 1%"
+      ,
       id: 'hades',
-      image: Hades
+      image: sticker10animated
     },
+    
   ]
   return (
     <div>
