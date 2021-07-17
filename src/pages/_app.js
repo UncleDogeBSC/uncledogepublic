@@ -8,7 +8,6 @@ import '../containers/CryptoModern/Tokenomics/tokenomics.css'
 
 
 
-
 export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>
