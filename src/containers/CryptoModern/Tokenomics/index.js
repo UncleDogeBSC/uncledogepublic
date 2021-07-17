@@ -17,32 +17,32 @@ const TokenomicsSection = () => {
       title: 'Token Tax(total)',
       detail: '11% Transaction Tax.',
       id: 'zeus',
-      image: sticker5animated
+     
     },
     {
       title: 'Liquidity',
       detail: '10% of tax goes to liquidity.',
       id: 'poseidon',
-      image: sticker6animated
+     
     },
     {
       title: 'Holders',
       detail: '1% Redistributed to Holders.',
       id: 'plutus',
-      image: sticker8animated
+     
     },
     {
       title: 'Total Supply',
       detail: '1 Quadrillion Initial Supply.',
       id: 'favour',
-      image: sticker9animated
+      
     },
     {
       title: 'More',
       detail: "Presale 50% Liquidity 35%  Burn 2.68%  Airdrop 1%"
       ,
       id: 'hades',
-      image: sticker10animated
+    
     },
     
   ]
