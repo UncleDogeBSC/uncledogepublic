@@ -32,11 +32,23 @@ import $ from 'jquery';
 import { Container, Grid, Typography } from "@material-ui/core";
 import SideRoadMap from "containers/CryptoModern/SideRoadMap/index";
 
+
+
+
 const Main = () => {
+
+  function SafeHydrate({ children }) {
+    return (
+      <div suppressHydrationWarning>
+        {typeof window === 'undefined' ? null : children}
+      </div>
+    )
+  }
+
   return (
 
     <>
-
+<SafeHydrate>
       <Head>
         <title>Uncle Doge | Landing page</title>
         <meta name="Description" content="React next landing page" />
@@ -105,6 +117,7 @@ const Main = () => {
         <CountDown />
         <Footer />
       </CryptoWrapper>
+      </SafeHydrate>
       {/* end of app classic landing */}
     </>
 
